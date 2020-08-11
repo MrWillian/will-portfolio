@@ -6,7 +6,7 @@ import CustomText from '../../components/CustomText';
 
 import { 
   Container, PerfilContainer, PerfilName, Divisor, PerfilSocialMedia,
-  OfficeContainer, OfficeContainerHeader, Line, OfficeContainerContent
+  OfficeContainer, OfficeContainerHeader, Line, OfficeContainerContent, CustomLink
 } from './styles';
 
 const Introduction: React.FC = () => {
@@ -56,10 +56,9 @@ const Introduction: React.FC = () => {
             weight={900}
             size={36} />
 
-          <CustomText 
-            text="Minha história ->"
-            weight={600}
-             />
+          <CustomLink>
+            Minha história ->
+          </CustomLink>
         </OfficeContainerContent>
       </OfficeContainer>
 
