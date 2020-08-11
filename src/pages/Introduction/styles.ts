@@ -11,7 +11,7 @@ export const PerfilContainer = styled.div`
   align-items: center;
   justify-content: center;
   
-  margin: 50px 30px;
+  margin: 4rem 2rem;
 `;
 
 export const PerfilName = styled.div``;
@@ -27,7 +27,7 @@ export const PerfilSocialMedia = styled.div`
 `;
 
 export const OfficeContainer = styled.div`
-  margin: 80px 30px;
+  margin: 6rem 2rem;
 `;
 
 export const OfficeContainerHeader = styled.div`
@@ -45,10 +45,13 @@ export const OfficeContainerContent = styled.div`
   display: flex;
   flex-direction: column;
 
-
-  &:last-child {
-    align-self: flex-end;
-    color: var(--accent-color);
-  }
 `;
 
+export const CustomLink = styled.a`
+  align-self: flex-end;
+  color: var(--accent-color);
+  text-decoration: underline;
+  font-size: 18px;
+
+  margin-top: 2rem;
+`;
