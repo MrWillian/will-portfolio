@@ -11,7 +11,7 @@ export const PerfilContainer = styled.div`
   align-items: center;
   justify-content: center;
   
-  margin: 4rem 2rem;
+  margin: 2rem 2rem;
 `;
 
 export const PerfilName = styled.div``;
