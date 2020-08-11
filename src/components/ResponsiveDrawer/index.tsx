@@ -98,7 +98,7 @@ function ResponsiveDrawer() {
           >
             <MenuIcon />
           </IconButton>
-          {logo}
+          {/* {logo} */}
         </Toolbar>
       </AppBar>
       
