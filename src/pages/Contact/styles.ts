@@ -27,7 +27,7 @@ export const CustomLink = styled.a`
   align-self: flex-end;
   color: var(--accent-color);
   text-decoration: underline;
-  font-size: 18px;
+  font-size: 1rem;
 
   margin-top: 2rem;
 `;
