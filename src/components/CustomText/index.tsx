@@ -26,7 +26,7 @@ const CustomText: React.FC<Props> = ({
 CustomText.defaultProps = {
   isWhiteText: true,
   weight: 400,
-  size: 14,
+  size: 1,
 };
 
 export default CustomText;
