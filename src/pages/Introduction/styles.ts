@@ -24,6 +24,7 @@ export const Divisor = styled.hr`
 
 export const PerfilSocialMedia = styled.div`
   display: flex;
+  flex-direction: column;
 `;
 
 export const OfficeContainer = styled.div`
