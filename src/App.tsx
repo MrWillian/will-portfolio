@@ -2,6 +2,7 @@ import React from 'react';
 import GlobalStyles from './styles/GlobalStyles';
 import Introduction from './pages/Introduction';
 import Header from './components/Header';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Header />
 
       <Introduction />
-      
+
+      <Contact />
     </>
   );
 }
