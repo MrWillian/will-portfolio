@@ -3,6 +3,7 @@ import GlobalStyles from './styles/GlobalStyles';
 import Introduction from './pages/Introduction';
 import Header from './components/Header';
 import Contact from './pages/Contact';
+import Portfolio from './pages/Portfolio';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <Introduction />
 
       <Contact />
+
+      <Portfolio />
     </>
   );
 }
