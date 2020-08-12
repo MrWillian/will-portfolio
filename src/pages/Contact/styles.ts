@@ -1,10 +1,9 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  padding: 2rem 2rem;
+  padding: 4rem 2rem 18rem 2rem;
   background-color: var(--base-dark);
 `;
-
 
 export const EmailContactContainer = styled.div``;
 
@@ -34,5 +33,5 @@ export const CustomLink = styled.a`
 `;
 
 export const PhraseContainer = styled.div`
-  margin-top: 4rem;
+  margin-top: 6rem;
 `;
