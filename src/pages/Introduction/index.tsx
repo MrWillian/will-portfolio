@@ -20,7 +20,7 @@ const Introduction: React.FC = () => {
           <CustomText 
             text="Willian Marciel." 
             weight={900}
-            size={50}
+            size={3}
           />
           <Divisor />
         </PerfilName>
@@ -55,7 +55,7 @@ const Introduction: React.FC = () => {
           <CustomText 
             text="Desenvolvedor Web e Mobile"
             weight={900}
-            size={36} />
+            size={2} />
 
           <CustomLink>
             Minha história
