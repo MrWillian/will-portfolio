@@ -4,6 +4,7 @@ import Introduction from './pages/Introduction';
 import Header from './components/Header';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
+import Footer from './pages/Footer';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       <Contact />
 
       <Portfolio />
+
+      <Footer />
     </>
   );
 }
