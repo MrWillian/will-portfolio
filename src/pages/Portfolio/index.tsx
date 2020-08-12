@@ -1,7 +1,12 @@
 import React from 'react';
+import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import Card from '../../components/Card';
+import CustomText from '../../components/CustomText';
 
-import { Container, CardContainer } from './styles';
+import { 
+  Container, CardContainer, ExploreMoreContainer, ExploreMoreHeader,
+  ExploreMoreContent, Line, CustomLink
+} from './styles';
 
 const Portfolio: React.FC = () => {
   return (
@@ -23,6 +28,37 @@ const Portfolio: React.FC = () => {
           value="62 projetos"
         />
       </CardContainer>
+
+      <ExploreMoreContainer>
+
+        <ExploreMoreHeader>
+
+          <Line />
+
+          <CustomText
+            text="Portfólio"
+            isWhiteText={false} />
+
+        </ExploreMoreHeader>
+        
+        <ExploreMoreContent>
+          <CustomText 
+            text="Trabalhos criativos, projetos selecionados."
+            weight={900}
+            size={2} />
+
+          <CustomText 
+            text="Veja meus projetos já criados..."
+            weight={600} />
+
+          <CustomLink>
+            Explorar mais projetos
+            <ArrowForwardIcon />
+          </CustomLink>
+
+        </ExploreMoreContent>
+      </ExploreMoreContainer>
+
     </Container>
   );
 }
