@@ -1,6 +1,7 @@
 import React from 'react';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 
 import CustomText from '../../components/CustomText';
 
@@ -57,7 +58,8 @@ const Introduction: React.FC = () => {
             size={36} />
 
           <CustomLink>
-            Minha história ->
+            Minha história
+            <ArrowForwardIcon />
           </CustomLink>
         </OfficeContainerContent>
       </OfficeContainer>

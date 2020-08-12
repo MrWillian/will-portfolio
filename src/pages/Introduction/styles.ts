@@ -48,6 +48,8 @@ export const OfficeContainerContent = styled.div`
 `;
 
 export const CustomLink = styled.a`
+  display: flex;
+  align-items: center;
   align-self: flex-end;
   color: var(--accent-color);
   text-decoration: underline;
