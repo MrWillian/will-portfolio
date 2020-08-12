@@ -7,6 +7,7 @@ import {
   Container, CardContainer, ExploreMoreContainer, ExploreMoreHeader,
   ExploreMoreContent, Line, CustomLink
 } from './styles';
+import Project from '../../components/Project';
 
 const Portfolio: React.FC = () => {
   return (
@@ -58,6 +59,10 @@ const Portfolio: React.FC = () => {
 
         </ExploreMoreContent>
       </ExploreMoreContainer>
+
+      <Project />
+      <Project />
+      <Project />
 
     </Container>
   );
