@@ -17,11 +17,11 @@ const Card: React.FC<Props> = ({
       <CustomText 
         text={title}
         weight={600}
-        size={18} />
+        size={1} />
 
       <CustomText 
         text={value}
-        size={12} />
+        size={0.8} />
     </Container>
   );
 }
