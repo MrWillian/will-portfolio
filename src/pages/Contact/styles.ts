@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  grid-area: contact;
   padding: 4rem 2rem 18rem 2rem;
   background-color: var(--base-dark);
 `;
