@@ -8,6 +8,13 @@ export const Container = styled.div`
   justify-content: center;
 
   padding: 1rem;
+
+  @media(min-width: 500px) {
+    flex-direction: row;
+    justify-content: space-between;
+    
+    padding: 2rem;
+  }
 `;
 
 export const PerfilContainer = styled.div` 
@@ -16,22 +23,40 @@ export const PerfilContainer = styled.div`
   justify-content: center;
   
   margin-right: 1rem;
+
+  @media(min-width: 500px) {
+    flex-direction: column;
+  }
 `;
 
 export const PerfilName = styled.div`
   display: flex;
   flex-direction: column;
+
+
+  @media(min-width: 500px) {
+    flex-direction: column;
+  }
 `;
 
 export const Divisor = styled.hr`
   border: 4px solid var(--accent-color);
-  width: 10vw;
+  width: 2rem;
   margin-left: 2px;
+
+  @media(min-width: 900px) {
+    margin-left: 5px;
+  }
 `;
 
 export const PerfilSocialMedia = styled.div`
   display: flex;
   flex-direction: column;
+
+  @media(min-width: 500px) {
+    flex-direction: row;
+    margin-top: 1rem;
+  }
 `;
 
 export const OfficeContainer = styled.div`
