@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  
+  grid-area: header;
 `;
 
 export const DrawerContainer = styled.div`

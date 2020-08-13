@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  grid-area: footer;
   padding: 5rem 2rem;
   background-color: var(--base-dark);
 `;

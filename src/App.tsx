@@ -1,25 +1,13 @@
 import React from 'react';
 import GlobalStyles from './styles/GlobalStyles';
-import Introduction from './pages/Introduction';
-import Header from './components/Header';
-import Contact from './pages/Contact';
-import Portfolio from './pages/Portfolio';
-import Footer from './pages/Footer';
+import Landing from './pages/Landing';
 
 function App() {
   return (
     <>
       <GlobalStyles />
 
-      <Header />
-
-      <Introduction />
-
-      <Contact />
-
-      <Portfolio />
-
-      <Footer />
+      <Landing />
     </>
   );
 }

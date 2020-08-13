@@ -1,9 +1,13 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  grid-area: introduction;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+
+  padding: 1rem;
 `;
 
 export const PerfilContainer = styled.div` 
@@ -11,10 +15,13 @@ export const PerfilContainer = styled.div`
   align-items: center;
   justify-content: center;
   
-  margin: 2rem 2rem;
+  margin-right: 1rem;
 `;
 
-export const PerfilName = styled.div``;
+export const PerfilName = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
 
 export const Divisor = styled.hr`
   border: 4px solid var(--accent-color);
@@ -28,7 +35,7 @@ export const PerfilSocialMedia = styled.div`
 `;
 
 export const OfficeContainer = styled.div`
-  margin: 6rem 2rem;
+  margin: 6rem 1rem; 
 `;
 
 export const OfficeContainerHeader = styled.div`
@@ -38,7 +45,7 @@ export const OfficeContainerHeader = styled.div`
 
 export const Line = styled.hr`
   border: 1px solid var(--grey1);
-  width: 5vw;
+  min-width: 5vw;
   margin-right: 5px;
 `;
 
