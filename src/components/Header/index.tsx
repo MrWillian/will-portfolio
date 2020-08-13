@@ -15,6 +15,9 @@ const Header: React.FC = () => {
       </DrawerContainer>
 
       <MenuContainer>
+        <div className="logo">
+          
+        </div>
         <Menu />
       </MenuContainer>
       

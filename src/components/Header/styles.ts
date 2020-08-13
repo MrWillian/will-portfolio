@@ -2,6 +2,10 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   grid-area: header;
+
+  @media(min-width: 500px) {    
+    padding: 1rem 4rem;
+  }
 `;
 
 export const DrawerContainer = styled.div`
@@ -12,6 +16,11 @@ export const DrawerContainer = styled.div`
 `;
 
 export const MenuContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1rem;
 
   @media(max-width: 500px) {
     display: none;

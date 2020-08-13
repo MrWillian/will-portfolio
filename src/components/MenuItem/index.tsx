@@ -12,8 +12,11 @@ const MenuItem: React.FC<Props> = ({
   title, isActive 
 }) => {
   return (
-    <Container className={isActive ? 'active' : ''}>
-      <CustomText text={title} weight={600} />
+    <Container>
+      <CustomText 
+        text={title} 
+        weight={600} 
+        isWhiteText={isActive} />
     </Container>
   );
 }
