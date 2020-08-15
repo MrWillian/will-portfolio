@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import Card from '../../components/Card';
 import CustomText from '../../components/CustomText';
@@ -51,10 +52,12 @@ const Portfolio: React.FC = () => {
               text="Veja meus projetos já criados..."
               weight={600} />
 
-            <CustomLink>
-              Explorar mais projetos
-              <ArrowForwardIcon />
-            </CustomLink>
+            <Link to="/projects">
+              <CustomLink>
+                Explorar mais projetos
+                <ArrowForwardIcon />
+              </CustomLink>
+            </Link>
 
           </ExploreMoreContent>
         </ExploreMore>
