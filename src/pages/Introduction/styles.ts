@@ -70,7 +70,7 @@ export const OfficeContainerHeader = styled.div`
 
 export const Line = styled.hr`
   border: 1px solid var(--grey1);
-  min-width: 5vw;
+  min-width: 1rem;
   margin-right: 5px;
 `;
 
