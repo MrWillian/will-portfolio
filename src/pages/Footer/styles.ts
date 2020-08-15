@@ -6,6 +6,19 @@ export const Container = styled.div`
   background-color: var(--base-dark);
 `;
 
+export const ContactTypesContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  @media(min-width: 1000px) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+`;
+
 export const CustomLink = styled.a`
   display: flex;
   align-items: center;
