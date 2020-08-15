@@ -4,8 +4,8 @@ import Card from '../../components/Card';
 import CustomText from '../../components/CustomText';
 
 import { 
-  Container, CardContainer, ExploreMoreContainer, ExploreMoreHeader,
-  ExploreMoreContent, Line, CustomLink
+  Container, CardContainer, ExploreMoreAndProjectsContainer, ExploreMoreHeader,
+  ExploreMoreContent, ExploreMore, Line, CustomLink, ProjectsContent
 } from './styles';
 import Project from '../../components/Project';
 
@@ -30,39 +30,43 @@ const Portfolio: React.FC = () => {
         />
       </CardContainer>
 
-      <ExploreMoreContainer>
+      <ExploreMoreAndProjectsContainer>
 
-        <ExploreMoreHeader>
+        <ExploreMore>
+          <ExploreMoreHeader>
+            <Line />
 
-          <Line />
+            <CustomText
+              text="Portfólio"
+              isWhiteText={false} />
+          </ExploreMoreHeader>
+          
+          <ExploreMoreContent>
+            <CustomText 
+              text="Trabalhos criativos, projetos selecionados."
+              weight={900}
+              size={2} />
 
-          <CustomText
-            text="Portfólio"
-            isWhiteText={false} />
+            <CustomText 
+              text="Veja meus projetos já criados..."
+              weight={600} />
 
-        </ExploreMoreHeader>
-        
-        <ExploreMoreContent>
-          <CustomText 
-            text="Trabalhos criativos, projetos selecionados."
-            weight={900}
-            size={2} />
+            <CustomLink>
+              Explorar mais projetos
+              <ArrowForwardIcon />
+            </CustomLink>
 
-          <CustomText 
-            text="Veja meus projetos já criados..."
-            weight={600} />
+          </ExploreMoreContent>
+        </ExploreMore>
 
-          <CustomLink>
-            Explorar mais projetos
-            <ArrowForwardIcon />
-          </CustomLink>
+        <ProjectsContent>
+          <Project />
+          <Project />
+          <Project />
+        </ProjectsContent>
 
-        </ExploreMoreContent>
-      </ExploreMoreContainer>
+      </ExploreMoreAndProjectsContainer>
 
-      <Project />
-      <Project />
-      <Project />
 
     </Container>
   );

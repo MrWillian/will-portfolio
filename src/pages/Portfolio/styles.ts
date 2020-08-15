@@ -21,11 +21,16 @@ export const CardContainer = styled.div`
 
   position: absolute;
   top: -12rem;
+
+  @media(min-width: 600px) {
+    flex-direction: row;
+    top: -8rem;
+  }
 `;
 
 export const Line = styled.hr`
   border: 1px solid var(--grey1);
-  width: 5vw;
+  width: 1rem;
   margin-right: 5px;
 `;
 
@@ -41,8 +46,25 @@ export const CustomLink = styled.a`
   margin-top: 2rem;
 `;
 
-export const ExploreMoreContainer = styled.div`
+export const ExploreMoreAndProjectsContainer = styled.div`
   margin-top: 7rem;
+
+  @media(min-width: 800px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10rem;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; */
+    
+  }
+`;
+
+export const ExploreMore = styled.div`
+  @media(min-width: 800px) {
+    max-width: 25rem;
+  }
 `;
 
 export const ExploreMoreHeader = styled.div`
@@ -52,3 +74,4 @@ export const ExploreMoreHeader = styled.div`
 
 export const ExploreMoreContent = styled.div``;
 
+export const ProjectsContent = styled.div``;
