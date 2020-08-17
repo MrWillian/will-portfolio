@@ -13,7 +13,7 @@ export const Container = styled.div`
 export const ExploreMoreHeader = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: 1rem;
+  margin-top: 2rem;
 `;
 
 export const TitleContainer = styled.div`
@@ -28,7 +28,7 @@ export const Line = styled.hr`
 `;
 
 export const ProjectsContainer = styled.div`
-  margin: 2rem 0;
+  margin: 3rem 0;
 `;
 
 export const Categories = styled.div`
@@ -57,7 +57,7 @@ export const Projects = styled.div`
     grid-template-columns: 1fr 1fr;
   }
   
-  @media(min-width: 800px) {
+  @media(min-width: 1000px) {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 `;
