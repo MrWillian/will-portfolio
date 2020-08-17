@@ -40,6 +40,7 @@ const ExploreMore: React.FC = () => {
         
         <Projects>
           <ProjectViewer 
+          
             title="Landing Page 1" 
             link="https://covid-world-tracker.netlify.app/"
             src="https://img.freepik.com/fotos-gratis/gotas-de-oleo-na-imagem-abstrata-padrao-psicodelico-de-agua_23-2148290141.jpg?size=626&ext=jpg" />
