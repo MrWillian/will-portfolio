@@ -5,18 +5,22 @@ import CustomText from '../CustomText';
 import { 
   Container, Viewer, InfoContainer, CustomLink
 } from './styles';
+import { Link } from 'react-router-dom';
 
 interface Props {
   title: string;
-  link?: string;
+  src: string;
+  link: string;
 }
 
 const ProjectViewer: React.FC<Props> = ({
-  title, link
+  title, link, src
 }) => {
   return (
     <Container>
-      <Viewer />
+      <Viewer>
+        <img src={src} alt={title} />
+      </Viewer>
 
       <InfoContainer>
 
@@ -25,7 +29,7 @@ const ProjectViewer: React.FC<Props> = ({
           weight={600}
           size={0.8} />
 
-        <CustomLink>
+        <CustomLink target="_blank" rel="noopener noreferrer" href={link}>
           Visualizar
           <LaunchIcon />
         </CustomLink>
