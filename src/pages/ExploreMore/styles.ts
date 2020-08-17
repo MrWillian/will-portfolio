@@ -4,6 +4,8 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
 
+  min-width: 100%;
+  min-height: 100%;
   padding: 2rem;
   background-color: var(--base-dark);
 `;
@@ -39,9 +41,23 @@ export const Category = styled.a`
   font-size: 0.8rem;
   color: var(--grey1);
   background-color: transparent;
+  cursor: pointer;
 
   &:first-child {
     color: var(--accent-color);
     background-color: var(--base-color);
+  }
+`;
+
+export const Projects = styled.div`
+  display: grid;
+  grid-template-columns: 1fr;
+
+  @media(min-width: 600px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  @media(min-width: 800px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 `;
