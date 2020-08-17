@@ -39,13 +39,17 @@ const ExploreMore: React.FC = () => {
         </Categories>
         
         <Projects>
-          <ProjectViewer title="Landing Page 1" />
-          <ProjectViewer title="Site 1" />
+          <ProjectViewer 
+            title="Landing Page 1" 
+            link="https://covid-world-tracker.netlify.app/"
+            src="https://img.freepik.com/fotos-gratis/gotas-de-oleo-na-imagem-abstrata-padrao-psicodelico-de-agua_23-2148290141.jpg?size=626&ext=jpg" />
+          
+          {/* <ProjectViewer title="Site 1" />
           <ProjectViewer title="Site 2" />
           <ProjectViewer title="App 1" />
           <ProjectViewer title="Landing Page 2" />
           <ProjectViewer title="App 2" />
-          <ProjectViewer title="App 3" />
+          <ProjectViewer title="App 3" /> */}
         </Projects>
       </ProjectsContainer>
 
