@@ -8,11 +8,15 @@ export default createGlobalStyle`
 
     font-family: 'Poppins', sans-serif;
   }
-
+  
+  html,
+  body,
   #root {
     width: 100%;
     height: 100%;
-    
+  }
+
+  #root {
     background-color: var(--base-color);
   }
 
