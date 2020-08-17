@@ -5,7 +5,7 @@ import ProjectViewer from '../../components/ProjectViewer';
 
 import { 
   Container, ExploreMoreHeader, TitleContainer, Line,
-  ProjectsContainer, Categories, Category
+  ProjectsContainer, Projects, Categories, Category
 } from './styles';
 
 const ExploreMore: React.FC = () => {
@@ -38,10 +38,15 @@ const ExploreMore: React.FC = () => {
           <Category>Mobile</Category>
         </Categories>
         
-        <ProjectViewer title="Landing Page 1" />
-        <ProjectViewer title="Site 1" />
-        <ProjectViewer title="Site 2" />
-        <ProjectViewer title="App 1" />
+        <Projects>
+          <ProjectViewer title="Landing Page 1" />
+          <ProjectViewer title="Site 1" />
+          <ProjectViewer title="Site 2" />
+          <ProjectViewer title="App 1" />
+          <ProjectViewer title="Landing Page 2" />
+          <ProjectViewer title="App 2" />
+          <ProjectViewer title="App 3" />
+        </Projects>
       </ProjectsContainer>
 
     </Container>

@@ -7,6 +7,7 @@ export const Container = styled.button`
   background-color: transparent;
   border: none;
   outline: 0;
+  cursor: pointer;
 `;
 
 export const Text = styled.h3`
