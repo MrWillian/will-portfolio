@@ -3,6 +3,11 @@ import BackButton from '../../components/BackButton';
 import CustomText from '../../components/CustomText';
 import ProjectViewer from '../../components/ProjectViewer';
 
+import TwitterClone from '../../assets/images/twitter-clone.jpg';
+import DiscordClone from '../../assets/images/discord-clone.jpg';
+import CovidTracker from '../../assets/images/covid-tracker.jpg';
+import TaskManager from '../../assets/images/task-manager.jpg';
+
 import { 
   Container, ExploreMoreHeader, TitleContainer, Line,
   ProjectsContainer, Projects, Categories, Category
@@ -39,18 +44,27 @@ const ExploreMore: React.FC = () => {
         </Categories>
         
         <Projects>
-          <ProjectViewer 
+
+          <ProjectViewer
+            title="Twitter Clone" 
+            link="https://willian-twitter-clone.netlify.app"
+            src={TwitterClone} />
           
-            title="Landing Page 1" 
+          <ProjectViewer
+            title="Discord Clone" 
+            link="https://willian-discord-clone.netlify.app"
+            src={DiscordClone} />
+          
+          <ProjectViewer
+            title="Covid Tracker" 
             link="https://covid-world-tracker.netlify.app/"
-            src="https://img.freepik.com/fotos-gratis/gotas-de-oleo-na-imagem-abstrata-padrao-psicodelico-de-agua_23-2148290141.jpg?size=626&ext=jpg" />
+            src={CovidTracker} />
           
-          {/* <ProjectViewer title="Site 1" />
-          <ProjectViewer title="Site 2" />
-          <ProjectViewer title="App 1" />
-          <ProjectViewer title="Landing Page 2" />
-          <ProjectViewer title="App 2" />
-          <ProjectViewer title="App 3" /> */}
+          <ProjectViewer
+            title="Task Manager" 
+            link="https://task-manager-willian.netlify.app/"
+            src={TaskManager} />
+          
         </Projects>
       </ProjectsContainer>
 
