@@ -39,6 +39,7 @@ export const CustomLink = styled.a`
   color: var(--accent-color);
   text-decoration: underline;
   font-size: 1rem;
+  cursor: pointer;
 
   margin-top: 2rem;
 `;
