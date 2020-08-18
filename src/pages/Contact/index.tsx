@@ -1,10 +1,11 @@
 import React from 'react';
-import CustomText from '../../components/CustomText';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
+import CustomText from '../../components/CustomText';
+import CustomLink from '../../components/CustomLink';
 
 import { 
   Container, EmailContactContainer, EmailContactHeader, Line,
-  EmailContactContent, CustomLink, PhraseContainer
+  EmailContactContent, PhraseContainer
 } from './styles';
 
 const Contact: React.FC = () => {
