@@ -2,13 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import Card from '../../components/Card';
+import Project from '../../components/Project';
 import CustomText from '../../components/CustomText';
+import CustomLink from '../../components/CustomLink';
 
 import { 
   Container, CardContainer, ExploreMoreAndProjectsContainer, ExploreMoreHeader,
-  ExploreMoreContent, ExploreMore, Line, CustomLink, ProjectsContent
+  ExploreMoreContent, ExploreMore, Line, ProjectsContent
 } from './styles';
-import Project from '../../components/Project';
 
 const Portfolio: React.FC = () => {
   return (

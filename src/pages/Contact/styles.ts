@@ -31,18 +31,6 @@ export const EmailContactContent = styled.div`
   }
 `;
 
-export const CustomLink = styled.a`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-self: flex-end;
-  color: var(--accent-color);
-  text-decoration: underline;
-  font-size: 1rem;
-
-  margin-top: 2rem;
-`;
-
 export const PhraseContainer = styled.div`
   margin-top: 6rem;
 

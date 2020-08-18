@@ -1,10 +1,11 @@
 import React from 'react';
-import CustomText from '../../components/CustomText';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
+import CustomText from '../../components/CustomText';
+import CustomLink from '../../components/CustomLink';
 
 import { 
   Container, EmailContactContainer, EmailContactHeader, Line,
-  EmailContactContent, CustomLink, PhraseContainer
+  EmailContactContent, PhraseContainer
 } from './styles';
 
 const Contact: React.FC = () => {
@@ -32,7 +33,9 @@ const Contact: React.FC = () => {
             text="Seja sobre orçamento, tecnologias usadas ou dúvidas à cerca da carreira de desenvolvedor, me mande um email..."
             weight={600} />
 
-          <CustomLink>
+          <CustomLink 
+            target="_blank" rel="noopener noreferrer" 
+            href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=williansoares.dev@gmail.com">
             williansoares.dev@gmail.com
             <ArrowForwardIcon />
           </CustomLink>

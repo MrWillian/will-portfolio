@@ -9,68 +9,19 @@ export const Container = styled.div`
 export const ContactTypesContainer = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: center;
 
   @media(min-width: 1000px) {
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-
+    /* justify-content: space-between; */
   }
-
-`;
-
-export const CustomLink = styled.a`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-self: flex-end;
-  color: var(--accent-color);
-  text-decoration: underline;
-  font-size: 1rem;
-
-  margin-top: 2rem;
 `;
 
 export const EmailContactContainer = styled.div``;
 
 export const DirectContactContainer = styled.div`
   margin-top: 5rem;
-`;
-
-export const DirectForm = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 1rem 0;
-`;
-
-export const InputGroup = styled.div`
-  padding: 1rem;
-  
-  &.file-input {
-    display: flex;
-    justify-content: space-between;
-  }
-
-`;
-
-export const Input = styled.input`
-  width: 100%;
-  background-color: transparent;
-  border: none;
-  border-bottom: 1px solid var(--grey1);
-
-  &::placeholder,
-  &::-webkit-input-placeholder,
-  &:-ms-input-placeholder {
-    font-size: 1rem;
-    color: var(--white);
-    margin-bottom: 1rem;
-  }
-
-  &.file::-webkit-file-upload-button {
-    visibility: hidden;
-  }
 `;
 
 export const FooterEndContainer = styled.div`
@@ -87,11 +38,6 @@ export const FooterEndContainer = styled.div`
 
   > strong {
     font-weight: 900;
-
-  }
-
-  > span {
-
   }
 `;
 

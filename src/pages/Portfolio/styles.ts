@@ -34,18 +34,6 @@ export const Line = styled.hr`
   margin-right: 5px;
 `;
 
-export const CustomLink = styled.a`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-self: flex-end;
-  color: var(--accent-color);
-  text-decoration: underline;
-  font-size: 1rem;
-
-  margin-top: 2rem;
-`;
-
 export const ExploreMoreAndProjectsContainer = styled.div`
   margin-top: 7rem;
 
@@ -54,10 +42,6 @@ export const ExploreMoreAndProjectsContainer = styled.div`
     align-items: center;
     justify-content: space-between;
     margin-top: 10rem;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr; */
-    
   }
 `;
 

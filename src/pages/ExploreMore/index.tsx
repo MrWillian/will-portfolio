@@ -39,8 +39,8 @@ const ExploreMore: React.FC = () => {
       <ProjectsContainer>
         <Categories>
           <Category>Todos</Category>
-          <Category>Web</Category>
-          <Category>Mobile</Category>
+          {/* <Category>Web</Category>
+          <Category>Mobile</Category> */}
         </Categories>
         
         <Projects>
