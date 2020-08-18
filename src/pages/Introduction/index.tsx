@@ -57,10 +57,11 @@ const Introduction: React.FC = () => {
             weight={900}
             size={2} />
 
-          <CustomLink>
+          {/* <CustomLink>
             Minha história
             <ArrowForwardIcon />
-          </CustomLink>
+          </CustomLink> */}
+
         </OfficeContainerContent>
       </OfficeContainer>
 
