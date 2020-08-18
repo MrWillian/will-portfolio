@@ -14,9 +14,7 @@ export const ContactTypesContainer = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
   }
-
 `;
 
 export const CustomLink = styled.a`
@@ -52,14 +50,15 @@ export const InputGroup = styled.div`
     display: flex;
     justify-content: space-between;
   }
-
 `;
 
 export const Input = styled.input`
   width: 100%;
+  height: 2rem;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid var(--grey1);
+  color: var(--white);
 
   &::placeholder,
   &::-webkit-input-placeholder,
