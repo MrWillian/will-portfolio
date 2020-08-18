@@ -32,7 +32,9 @@ const Footer: React.FC = () => {
           <CustomText 
             text="Me conte sobre sua ideia, podemos desenvolvê-lá juntos." />
 
-          <CustomLink>
+          <CustomLink 
+            target="_blank" rel="noopener noreferrer" 
+            href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=williansoares.dev@gmail.com">
             williansoares.dev@gmail.com
             <ArrowForwardIcon />
           </CustomLink>
