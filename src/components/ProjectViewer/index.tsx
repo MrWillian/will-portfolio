@@ -5,22 +5,19 @@ import CustomText from '../CustomText';
 import { 
   Container, Viewer, InfoContainer, CustomLink
 } from './styles';
-import { Link } from 'react-router-dom';
 
-interface Props {
+interface ProjectProps {
   title: string;
   src: string;
   link: string;
 }
 
-const ProjectViewer: React.FC<Props> = ({
+const ProjectViewer: React.FC<ProjectProps> = ({
   title, link, src
 }) => {
   return (
     <Container>
-      <Viewer>
-        <img src={src} alt={title} />
-      </Viewer>
+      <Viewer image={src} />
 
       <InfoContainer>
 
