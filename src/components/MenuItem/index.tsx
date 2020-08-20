@@ -5,14 +5,15 @@ import { Container } from './styles';
 
 interface Props {
   title: string;
+  link: string;
   isActive?: boolean;
 }
 
 const MenuItem: React.FC<Props> = ({ 
-  title, isActive 
+  title, link, isActive 
 }) => {
   return (
-    <Container>
+    <Container href={`#${link}`}>
       <CustomText 
         text={title} 
         weight={600} 

@@ -13,7 +13,7 @@ import {
 
 const Portfolio: React.FC = () => {
   return (
-    <Container>
+    <Container id="portfolio">
       <CardContainer>
         <Card 
           title="Mobile Developer"
@@ -63,11 +63,11 @@ const Portfolio: React.FC = () => {
           </ExploreMoreContent>
         </ExploreMore>
 
-        <ProjectsContent>
+        {/* <ProjectsContent>
           <Project />
           <Project />
           <Project />
-        </ProjectsContent>
+        </ProjectsContent> */}
 
       </ExploreMoreAndProjectsContainer>
 

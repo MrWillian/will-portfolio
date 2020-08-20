@@ -10,7 +10,7 @@ import {
 
 const Contact: React.FC = () => {
   return (
-    <Container>
+    <Container id="contact">
       <EmailContactContainer>
 
         <EmailContactHeader>

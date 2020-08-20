@@ -2,6 +2,8 @@ import React from 'react';
 import Menu from '../Menu';
 import ResponsiveDrawer from '../ResponsiveDrawer';
 
+import Logo from '../../assets/images/logo.png';
+
 import { 
   Container, DrawerContainer, MenuContainer 
 } from './styles';
@@ -15,9 +17,8 @@ const Header: React.FC = () => {
       </DrawerContainer>
 
       <MenuContainer>
-        <div className="logo">
-          
-        </div>
+        <img src={Logo} alt="logo" />
+        
         <Menu />
       </MenuContainer>
       

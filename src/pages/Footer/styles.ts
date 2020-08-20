@@ -39,9 +39,12 @@ export const FooterEndContainer = styled.div`
   > strong {
     font-weight: 900;
   }
-`;
 
-export const Logo = styled.div``;
+  > img {
+    max-width: 20rem;
+    max-height: 20rem;
+  }
+`;
 
 export const SocialMedia = styled.div`
   display: flex;
