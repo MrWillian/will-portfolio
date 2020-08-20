@@ -26,13 +26,19 @@ const Introduction: React.FC = () => {
         </PerfilName>
         
         <PerfilSocialMedia>
-          <a href="#">
+          <a 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            href="https://www.instagram.com/willian.dev/">
             <InstagramIcon 
               fontSize="large" 
               htmlColor="#FFF" />
           </a>
 
-          <a href="#">
+          <a 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            href="https://www.linkedin.com/in/willian-marciel/">
             <LinkedInIcon 
               fontSize="large" 
               htmlColor="#FFF" />
