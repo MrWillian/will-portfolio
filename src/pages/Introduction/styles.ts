@@ -22,7 +22,7 @@ export const PerfilContainer = styled.div`
   align-items: center;
   justify-content: center;
   
-  margin-right: 1rem;
+  /* margin-right: 1rem; */
 
   @media(min-width: 400px) {
     flex-direction: column;
@@ -32,7 +32,6 @@ export const PerfilContainer = styled.div`
 export const PerfilName = styled.div`
   display: flex;
   flex-direction: column;
-
 
   @media(min-width: 500px) {
     flex-direction: column;
