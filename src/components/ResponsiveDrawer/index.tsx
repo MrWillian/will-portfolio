@@ -15,6 +15,8 @@ import { makeStyles, useTheme } from '@material-ui/core/styles';
 
 import { Divider } from '@material-ui/core';
 
+import Logo from '../../assets/images/logo.png';
+
 const drawerWidth = 240;
 
 const useStyles = makeStyles(theme => ({
@@ -54,7 +56,8 @@ const useStyles = makeStyles(theme => ({
 }));
 
 function ResponsiveDrawer() {
-  const dummyCategories = ['Introdução', 'Trabalhos', 'Contato'];
+  const dummyCategories = ['Introdução', 'Contato', 'Trabalhos'];
+  const dummyCategoriesLink = ['introduction', 'contact', 'portfolio'];
   const classes = useStyles();
   const theme = useTheme();
   const [mobileOpen, setMobileOpen] = React.useState(false);
@@ -70,7 +73,14 @@ function ResponsiveDrawer() {
           <>
             <Divider />
             <ListItem button key={text}>
-              <ListItemText primary={text} style={{color: '#FFF', fontWeight: 'bold',}} />
+              <a 
+                href={`#${dummyCategoriesLink[index]}`}
+                style={{textDecoration: 'none'}}
+                onClick={handleDrawerToggle}>
+                <ListItemText 
+                  primary={text} 
+                  style={{color: '#FFF', fontWeight: 'bold'}} />
+              </a>
             </ListItem>
           </>
         ))}
@@ -79,8 +89,8 @@ function ResponsiveDrawer() {
   );
 
   const logo = ( 
-    <div> 
-      <span>LOGO</span> 
+    <div style={{display: 'flex', alignItems: 'center'}}> 
+      <img src={Logo} alt="logo" style={{maxWidth: '5rem', maxHeight: '5rem'}} />
     </div> 
   );
 
@@ -88,7 +98,7 @@ function ResponsiveDrawer() {
     <div className={classes.root}>
       <CssBaseline />
       <AppBar position="fixed" className={classes.appBar}>
-        <Toolbar>
+        <Toolbar style={{justifyContent: 'space-between'}}>
           <IconButton
             color="inherit"
             aria-label="Open drawer"
@@ -98,7 +108,7 @@ function ResponsiveDrawer() {
           >
             <MenuIcon />
           </IconButton>
-          {/* {logo} */}
+          {logo}
         </Toolbar>
       </AppBar>
       
@@ -120,9 +130,15 @@ function ResponsiveDrawer() {
             <IconButton onClick={handleDrawerToggle} className={classes.closeMenuButton}>
               <CloseIcon/>
             </IconButton>
+
             {drawer}
-            ...
+            
+            <img 
+              src={Logo} 
+              alt="logo" 
+              style={{maxWidth: '5rem', maxHeight: '5rem', alignSelf: "flex-end"}} />
           </Drawer>
+
         </Hidden>
         <Hidden xsDown implementation="css">
           <Drawer
@@ -143,6 +159,7 @@ function ResponsiveDrawer() {
     </div>
   );
 }
+
 ResponsiveDrawer.propTypes = {
   // Injected by the documentation to work in an iframe.
   // You won't need it on your project.
