@@ -6,9 +6,11 @@ import CustomText from '../../components/CustomText';
 import DirectForm from '../../components/DirectForm';
 import CustomLink from '../../components/CustomLink';
 
+import Logo from '../../assets/images/logo.png';
+
 import { 
   Container, EmailContactContainer, DirectContactContainer,
-  FooterEndContainer, Logo, SocialMedia, TextContainer,
+  FooterEndContainer, SocialMedia, TextContainer,
   ContactTypesContainer
 } from './styles';
 
@@ -60,7 +62,8 @@ const Footer: React.FC = () => {
       </ContactTypesContainer>
 
       <FooterEndContainer>
-        <Logo />
+        
+        <img src={Logo} alt="logo" />
         
         <TextContainer>
           <strong>Obrigado, </strong> 
