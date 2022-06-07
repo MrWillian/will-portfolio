@@ -23,8 +23,6 @@ import {
 const ExploreMore: React.FC = () => {
   // const items = useState<Projects[]>(projectsJson);
 
-  console.log("items", projectsJson);
-
   return (
     <Container>
       <BackButton />
