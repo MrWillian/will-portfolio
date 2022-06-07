@@ -17,18 +17,18 @@ const Portfolio: React.FC = () => {
       <CardContainer>
         <Card 
           title="Mobile Developer"
-          value="124 projetos"
+          value="4 projetos"
         />
 
         <Card 
           title="Web Developer"
-          value="37 projetos"
+          value="10 projetos"
           hasContrast
         />
 
         <Card 
           title="Full Stack Developer"
-          value="62 projetos"
+          value="2 projetos"
         />
       </CardContainer>
 
