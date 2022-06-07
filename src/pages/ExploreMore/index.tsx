@@ -3,10 +3,6 @@ import BackButton from '../../components/BackButton';
 import CustomText from '../../components/CustomText';
 import ProjectViewer from '../../components/ProjectViewer';
 
-import TwitterClone from '../../assets/images/twitter-clone.jpg';
-import DiscordClone from '../../assets/images/discord-clone.jpg';
-import CovidTracker from '../../assets/images/covid-tracker.jpg';
-import TaskManager from '../../assets/images/task-manager.jpg';
 import projectsJson from '../../assets/data/projects.json';
 
 import { 
