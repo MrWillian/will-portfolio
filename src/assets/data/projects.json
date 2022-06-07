@@ -23,6 +23,12 @@
             "description": "Gerenciador de Tarefas",
             "link": "https://task-manager-willian.netlify.app",
             "image": "http://localhost:3000/images/task-manager.jpg"
+        },
+        {
+            "title": "Social Media Dashboard",
+            "description": "Desafio diário de Frontend - Social Media Dashboard",
+            "link": "https://social-media-dashboard-olive.vercel.app/",
+            "image": "http://localhost:3000/images/social-media-dashboard.png"
         }
     ]
 }
