@@ -29,6 +29,12 @@
             "description": "Desafio diário de Frontend - Social Media Dashboard",
             "link": "https://social-media-dashboard-olive.vercel.app/",
             "image": "http://localhost:3000/images/social-media-dashboard.png"
-        }
+        },
+        {
+            "title": "Mobiee Passageiro: Chama!",
+            "description": "Ajustes (Freelancer) no Mobiee Passageiro - Aplicativo de Mobilidade Urbana",
+            "link": "https://play.google.com/store/apps/details?id=com.fab.mobiee",
+            "image": ""
+        }        
     ]
 }
