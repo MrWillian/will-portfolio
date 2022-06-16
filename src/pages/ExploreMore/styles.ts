@@ -35,7 +35,7 @@ export const Categories = styled.div`
   margin-bottom: 1rem;
 `;
 
-export const Category = styled.a`
+export const Category = styled.button`
   border-radius: 1rem;
   padding: 0.5rem;
   font-size: 0.8rem;
