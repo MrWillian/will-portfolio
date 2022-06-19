@@ -59,9 +59,15 @@ const ExploreMore: React.FC = () => {
 
       <ProjectsContainer>
         <Categories>
-          <Category onClick={() => changeCategory(CategoryEnum.TODOS)}>Todos</Category>
-          <Category onClick={() => changeCategory(CategoryEnum.WEB)}>Web</Category>
-          <Category onClick={() => changeCategory(CategoryEnum.MOBILE)}>Mobile</Category>
+          <Category onClick={() => changeCategory(CategoryEnum.TODOS)} isActive={category === CategoryEnum.TODOS}>
+            Todos
+          </Category>
+          <Category onClick={() => changeCategory(CategoryEnum.WEB)} isActive={category === CategoryEnum.WEB}>
+            Web
+          </Category>
+          <Category onClick={() => changeCategory(CategoryEnum.MOBILE)} isActive={category === CategoryEnum.MOBILE}>
+            Mobile
+          </Category>
         </Categories>
         
         <Projects>
