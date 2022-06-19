@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import BackButton from '../../components/BackButton';
 import CustomText from '../../components/CustomText';
 import ProjectViewer from '../../components/ProjectViewer';
@@ -9,7 +9,43 @@ import {
   Container, ExploreMoreHeader, TitleContainer, Line, ProjectsContainer, Projects, Categories, Category
 } from './styles';
 
+enum CategoryEnum {
+  TODOS = 'Todos',
+  WEB = 'Web',
+  MOBILE = 'Mobile',
+}
+
+interface ProjectsProps {
+  projects?: Project[] 
+}
+
+interface Project {
+  title: string,
+  description: string,
+  link: string,
+  image: string,
+  category: CategoryEnum,
+}
+
 const ExploreMore: React.FC = () => {
+  const [category, setCategory] = useState(CategoryEnum.TODOS);
+  const [projectsData, setProjectsData] = useState<ProjectsProps>({});
+
+  useEffect(() => {
+    setProjectsData(projectsJson as ProjectsProps);
+  }, []);
+
+  useEffect(() => {
+    if (projectsJson.projects !== undefined) {
+      const projects = projectsJson.projects?.filter((value) => isSameCategory(value.category)) as Project[];
+      setProjectsData({projects} as ProjectsProps);
+    }
+  }, [category]);
+
+  const isSameCategory = (projectCategory: string) => category === CategoryEnum.TODOS ? true : projectCategory === category;
+
+  const changeCategory = (selectedCategory: CategoryEnum) => setCategory(selectedCategory);
+
   return (
     <Container>
       <BackButton />
@@ -23,13 +59,19 @@ const ExploreMore: React.FC = () => {
 
       <ProjectsContainer>
         <Categories>
-          <Category>Todos</Category>
-          <Category>Web</Category>
-          <Category>Mobile</Category>
+          <Category onClick={() => changeCategory(CategoryEnum.TODOS)} isActive={category === CategoryEnum.TODOS}>
+            Todos
+          </Category>
+          <Category onClick={() => changeCategory(CategoryEnum.WEB)} isActive={category === CategoryEnum.WEB}>
+            Web
+          </Category>
+          <Category onClick={() => changeCategory(CategoryEnum.MOBILE)} isActive={category === CategoryEnum.MOBILE}>
+            Mobile
+          </Category>
         </Categories>
         
         <Projects>
-          {projectsJson.projects.map((project, index) => (
+          {projectsData.projects?.map((project, index) => (
             <ProjectViewer
               title={project.title}
               link={project.link}

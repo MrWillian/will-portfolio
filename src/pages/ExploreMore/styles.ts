@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 
+
+interface ButtonProps {
+  readonly isActive: boolean;
+}
+
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -35,18 +40,19 @@ export const Categories = styled.div`
   margin-bottom: 1rem;
 `;
 
-export const Category = styled.a`
+export const Category = styled.button<ButtonProps>`
   border-radius: 1rem;
+  border: none;
   padding: 0.5rem;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: var(--grey1);
   background-color: transparent;
   cursor: pointer;
 
-  &:first-child {
+  ${props => props.isActive && `
     color: var(--accent-color);
     background-color: var(--base-color);
-  }
+  `}
 `;
 
 export const Projects = styled.div`
