@@ -3,7 +3,7 @@ import LaunchIcon from '@material-ui/icons/Launch';
 import CustomText from '../CustomText';
 
 import { 
-  Container, Viewer, InfoContainer, CustomLink
+  Container, Viewer, InfoContainer, CustomLink, LinksContainer
 } from './styles';
 
 interface ProjectProps {
@@ -26,10 +26,16 @@ const ProjectViewer: React.FC<ProjectProps> = ({
           weight={600}
           size={0.8} />
 
-        <CustomLink target="_blank" rel="noopener noreferrer" href={link}>
-          Visualizar
-          <LaunchIcon />
-        </CustomLink>
+        <LinksContainer>
+          <CustomLink target="_blank" rel="noopener noreferrer" href={link}>
+            Visualizar
+            <LaunchIcon />
+          </CustomLink>
+          <CustomLink target="_blank" rel="noopener noreferrer" href={link}>
+            Informações
+            <LaunchIcon />
+          </CustomLink>
+        </LinksContainer>
 
       </InfoContainer>
 
