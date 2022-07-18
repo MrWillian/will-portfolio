@@ -48,6 +48,13 @@
             "link": "https://play.google.com/store/apps/details?id=com.fab.mobieefordrivers",
             "image": "",
             "category": "Mobile"
-        }        
+        },
+        {
+            "title": "FindOil",
+            "description": "Ajustes (Freelancer) no Mobiee Motorista - Aplicativo de Mobilidade Urbana",
+            "link": "",
+            "image": "http://localhost:3000/images/Screenshot-1_com.findoil.jpg",
+            "category": "Mobile"
+        }      
     ]
 }
