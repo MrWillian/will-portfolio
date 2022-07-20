@@ -12,6 +12,13 @@ interface ProjectProps {
   title: string;
   src: string;
   link: string;
+  info?: ProjectInfo
+}
+
+export interface ProjectInfo {
+  technology?: string,
+  linkGithub?: string,
+  description?: string,
 }
 
 const customStyles = {
@@ -22,14 +29,14 @@ const customStyles = {
     bottom: 'auto',
     marginRight: '-50%',
     transform: 'translate(-50%, -50%)',
+    width: 800,
+    height: 400,
   },
 };
 
 Modal.setAppElement('#root');
 
-const ProjectViewer: React.FC<ProjectProps> = ({
-  title, link, src
-}) => {
+const ProjectViewer: React.FC<ProjectProps> = ({ title, link, src, info }) => {
   const [isVisibleModal, setIsVisibleModal] = useState<boolean>(false);
 
   const showModal = () => setIsVisibleModal(true);
@@ -67,7 +74,16 @@ const ProjectViewer: React.FC<ProjectProps> = ({
         style={customStyles}
         contentLabel="Example Modal"
       >
-        <p>MODAL</p>
+        <p>Tecnologia Utilizada: {info?.technology}</p>
+        <p>Descricao: {info?.description}</p>
+        {info?.linkGithub 
+          ? <p>Link do Repositório: <a href={info?.linkGithub}>{info?.linkGithub}</a></p>
+          : <p></p>
+        }
+        {link 
+          ? <p>Link: <a target="_blank" rel="noopener noreferrer" href={link}>{link}</a></p>
+          : <p></p>
+        }
       </Modal>
     </Container>
   );
