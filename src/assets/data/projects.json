@@ -5,56 +5,94 @@
             "description": "Clone do Twitter",
             "link": "https://willian-twitter-clone.netlify.app",
             "image": "http://localhost:3000/images/twitter-clone.jpg",
-            "category": "Web"
+            "category": "Web",
+            "info" : {
+                "technology": "ReactJS",
+                "linkGithub": "https://github.com/MrWillian/twitter-clone",
+                "description": "Um clone da página inicial do Twitter."
+            }
         },
         {
             "title": "Discord Clone",
             "description": "Clone do Discord",
             "link": "https://willian-discord-clone.netlify.app",
             "image": "http://localhost:3000/images/discord-clone.jpg",
-            "category": "Web"
+            "category": "Web",
+            "info" : {
+                "technology": "ReactJS",
+                "linkGithub": "https://github.com/MrWillian/discord-clone",
+                "description": "Um clone da página inicial do Discord."
+            }
         },
         {
             "title": "Covid Tracker",
             "description": "Covid Tracker",
             "link": "https://covid-world-tracker.netlify.app",
             "image": "http://localhost:3000/images/covid-tracker.jpg",
-            "category": "Web"
+            "category": "Web",
+            "info" : {
+                "technology": "ReactJS",
+                "linkGithub": "https://github.com/MrWillian/covid-tracker",
+                "description": "Covid Tracker produzido em ReactJS que mostra casos e gráficos de Covid-19 em todo o mundo, e em cada país.."
+            }
         },
         {
             "title": "Task Manager",
             "description": "Gerenciador de Tarefas",
             "link": "https://task-manager-willian.netlify.app",
             "image": "http://localhost:3000/images/task-manager.jpg",
-            "category": "Web"
+            "category": "Web",
+            "info" : {
+                "technology": "ReactJS",
+                "linkGithub": "https://github.com/MrWillian/task-manager",
+                "description": "Um gerenciador de tarefas."
+            }
         },
         {
             "title": "Social Media Dashboard",
             "description": "Desafio diário de Frontend - Social Media Dashboard",
             "link": "https://social-media-dashboard-olive.vercel.app/",
             "image": "http://localhost:3000/images/social-media-dashboard.png",
-            "category": "Web"
+            "category": "Web",
+            "info" : {
+                "technology": "ReactJS",
+                "linkGithub": "https://github.com/MrWillian/social-media-dashboard",
+                "description": "Desafio de Frontend do Frontend Mentor - Dashboard com troca de temas"
+            }
         },
         {
             "title": "Mobiee Passageiro: Chama!",
             "description": "Ajustes (Freelancer) no Mobiee Passageiro - Aplicativo de Mobilidade Urbana",
             "link": "https://play.google.com/store/apps/details?id=com.fab.mobiee",
             "image": "",
-            "category": "Mobile"
+            "category": "Mobile",
+            "info" : {
+                "technology": "React Native",
+                "description": "Ajustes feitos no aplicativo da PlayStore sobre contrato Freelancer"
+            }
         },
         {
             "title": "Mobiee Motorista: Partiu!",
             "description": "Ajustes (Freelancer) no Mobiee Motorista - Aplicativo de Mobilidade Urbana",
             "link": "https://play.google.com/store/apps/details?id=com.fab.mobieefordrivers",
             "image": "",
-            "category": "Mobile"
+            "category": "Mobile",
+            "info" : {
+                "technology": "React Native",
+                "description": "Ajustes feitos no aplicativo da PlayStore sobre contrato Freelancer"
+            }
         },
         {
             "title": "FindOil",
-            "description": "Ajustes (Freelancer) no Mobiee Motorista - Aplicativo de Mobilidade Urbana",
+            "description": "Aplicativo para Cadastro de Pontos de Coleta",
             "link": "",
             "image": "http://localhost:3000/images/Screenshot-1_com.findoil.jpg",
-            "category": "Mobile"
+            "category": "Mobile",
+            "info" : {
+                "technology": "React Native",
+                "linkGithub": "https://github.com/MrWillian/find-oil",
+                "description": "Um aplicativo para cadastro de Ponto de Coleta para óleo de cozinha."
+            }
         }      
     ]
 }
