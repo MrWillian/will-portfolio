@@ -85,13 +85,25 @@
         {
             "title": "FindOil",
             "description": "Aplicativo para Cadastro de Pontos de Coleta",
-            "link": "",
+            "link": "https://github.com/MrWillian/find-oil",
             "image": "http://localhost:3000/images/Screenshot-1_com.findoil.jpg",
             "category": "Mobile",
             "info" : {
                 "technology": "React Native",
                 "linkGithub": "https://github.com/MrWillian/find-oil",
                 "description": "Um aplicativo para cadastro de Ponto de Coleta para óleo de cozinha."
+            }
+        },
+        {
+            "title": "Proffy",
+            "description": "Plataforma de estudos online desenvolvida durante a Next Level Week 2 da Rocketseat",
+            "link": "https://github.com/MrWillian/next-level-week-2",
+            "image": "https://github.com/MrWillian/next-level-week-2/blob/master/.github/layout.png?raw=true",
+            "category": "Todos",
+            "info" : {
+                "technology": "NodeJS - React - React Native",
+                "linkGithub": "https://github.com/MrWillian/next-level-week-2",
+                "description": "Proffy - Plataforma de estudos online onde alunos podem se conectar com professores."
             }
         }      
     ]
