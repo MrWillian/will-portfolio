@@ -54,3 +54,14 @@ export const CustomLink = styled.a`
   cursor: pointer;
   margin: 0 0.5rem;
 `;
+
+export const InfoText = styled.span`
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-decoration: underline;
+`;
+
+export const LabelText = styled.span`
+  font-size: 1.1rem;
+  margin-left: 10px;
+`;
