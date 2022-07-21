@@ -2,9 +2,10 @@ import React, { useState } from 'react';
 import LaunchIcon from '@material-ui/icons/Launch';
 import Info from '@material-ui/icons/Info';
 import CustomText from '../CustomText';
+import CloseIcon from '@material-ui/icons/Close';
 
 import { 
-  Container, Viewer, InfoContainer, CustomLink, LinksContainer
+  Container, Viewer, InfoContainer, CustomLink, LinksContainer, InfoText, LabelText
 } from './styles';
 import Modal from 'react-modal';
 
@@ -74,14 +75,33 @@ const ProjectViewer: React.FC<ProjectProps> = ({ title, link, src, info }) => {
         style={customStyles}
         contentLabel="Example Modal"
       >
-        <p>Tecnologia Utilizada: {info?.technology}</p>
-        <p>Descricao: {info?.description}</p>
+        <div style={{display: 'flex', width: '100%', justifyContent: 'flex-end', alignItems: 'center'}}>
+          <button 
+            style={{height: 25, border: '0px', cursor: 'pointer'}}
+            onClick={closeModal}>
+            <CloseIcon />
+          </button>
+        </div>
+        <p>
+          <InfoText>Tecnologia Utilizada:</InfoText>
+          <LabelText>{info?.technology}</LabelText>
+        </p>
+        <p>
+          <InfoText>Descrição:</InfoText> 
+          <LabelText>{info?.description}</LabelText>
+        </p>
         {info?.linkGithub 
-          ? <p>Link do Repositório: <a href={info?.linkGithub}>{info?.linkGithub}</a></p>
+          ? <p>
+              <InfoText>Link do Repositório:</InfoText>
+              <LabelText><a href={info?.linkGithub}>{info?.linkGithub}</a></LabelText>
+            </p>
           : <p></p>
         }
         {link 
-          ? <p>Link: <a target="_blank" rel="noopener noreferrer" href={link}>{link}</a></p>
+          ? <p>
+              <InfoText>Link:</InfoText>
+              <LabelText><a target="_blank" rel="noopener noreferrer" href={link}>{link}</a></LabelText>
+            </p>
           : <p></p>
         }
       </Modal>
