@@ -19,12 +19,16 @@ interface ProjectsProps {
   projects?: Project[] 
 }
 
-interface Project {
+export interface Project {
   title: string,
   description: string,
   link: string,
   image: string,
   category: CategoryEnum,
+  info?: {
+    technology: string,
+    linkGithub: string
+  },
 }
 
 const ExploreMore: React.FC = () => {
@@ -76,6 +80,7 @@ const ExploreMore: React.FC = () => {
               title={project.title}
               link={project.link}
               src={project.image} 
+              info={project.info}
               key={index} />
           ))}          
         </Projects>
