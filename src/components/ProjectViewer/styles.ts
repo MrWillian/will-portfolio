@@ -40,6 +40,11 @@ export const InfoContainer = styled.div`
   margin: 0.5rem 0;
 `;
 
+export const LinksContainer = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
 export const CustomLink = styled.a`
   display: flex;
   align-items: center;
@@ -47,5 +52,16 @@ export const CustomLink = styled.a`
   /* text-decoration: underline; */
   font-size: 0.8rem;
   cursor: pointer;
+  margin: 0 0.5rem;
+`;
 
+export const InfoText = styled.span`
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-decoration: underline;
+`;
+
+export const LabelText = styled.span`
+  font-size: 1.1rem;
+  margin-left: 10px;
 `;
