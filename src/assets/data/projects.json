@@ -1,6 +1,30 @@
 {
     "projects": [
         {
+            "title": "Nerdflix",
+            "description": "Plataforma de estudos online desenvolvida durante a Next Level Week 2 da Rocketseat",
+            "link": "https://nerdflix-mrwillian.vercel.app/",
+            "image": "http://localhost:3000/images/nerd-flix.png",
+            "category": "Web",
+            "info" : {
+                "technology": "ReactJS",
+                "linkGithub": "https://github.com/MrWillian/nerdflix",
+                "description": "Venho compartilhar minha versão do AluraFlix, o projeto abordado na semana da Imersão React (1ª aula), da Alura Cursos Online, onde os instrutores, Marco Bruno, Juliana Negreiros e Mario Souto Silva estão nos introduzindo no mundo do React. Nessa primeira aula, eles nos explicam tudo sobre os primeiros passos para se criar um projeto em React, e também o conceito de React Components. Como desafio, foi proposto inventarmos a nossa própria versão, por isso, vos apresento o NerdFlix 😂😂... Uma plataforma de vídeos do YouTube com os melhores conteúdos para os Nerds de plantão, onde encontraremos vídeos sobre Filmes, séries, games e muito mais... Na tentativa de desafiar a mim mesmo, desenvolvi essa versão em TypeScript e fiz o deploy na Vercel. Claro que também acompanhei e fiz minha versão oficial da aula."
+            }
+        },
+        {
+            "title": "Proffy",
+            "description": "Plataforma de estudos online desenvolvida durante a Next Level Week 2 da Rocketseat",
+            "link": "https://github.com/MrWillian/next-level-week-2",
+            "image": "https://github.com/MrWillian/next-level-week-2/blob/master/.github/layout.png?raw=true",
+            "category": "Todos",
+            "info" : {
+                "technology": "NodeJS - ReactJS - React Native",
+                "linkGithub": "https://github.com/MrWillian/next-level-week-2",
+                "description": "Proffy - Plataforma de estudos online onde alunos podem se conectar com professores."
+            }
+        },
+        {
             "title": "Twitter Clone",
             "description": "Clone do Twitter",
             "link": "https://willian-twitter-clone.netlify.app",
@@ -61,6 +85,30 @@
             }
         },
         {
+            "title": "Fylo Data Storage Component",
+            "description": "Desafio diário de Frontend - Fylo Data Storage Component",
+            "link": "https://fylo-willian.vercel.app/",
+            "image": "http://localhost:3000/images/fylo-data-storage-component.png",
+            "category": "Web",
+            "info" : {
+                "technology": "ReactJS",
+                "linkGithub": "https://github.com/MrWillian/fylo-landing-page-dark",
+                "description": "Desafio de Frontend do Frontend Mentor - Componente de barra de Storage"
+            }
+        },
+        {
+            "title": "Article Preview Component",
+            "description": "Desafio diário de Frontend - Article Preview Component",
+            "link": "https://article-preview-six.vercel.app/",
+            "image": "http://localhost:3000/images/article-preview-component.png",
+            "category": "Web",
+            "info" : {
+                "technology": "ReactJS",
+                "linkGithub": "https://github.com/MrWillian/article-preview-component",
+                "description": "Desafio de Frontend do Frontend Mentor - Componente de Pré-visualização de Artigos"
+            }
+        },
+        {
             "title": "Mobiee Passageiro: Chama!",
             "description": "Ajustes (Freelancer) no Mobiee Passageiro - Aplicativo de Mobilidade Urbana",
             "link": "https://play.google.com/store/apps/details?id=com.fab.mobiee",
@@ -93,18 +141,6 @@
                 "linkGithub": "https://github.com/MrWillian/find-oil",
                 "description": "Um aplicativo para cadastro de Ponto de Coleta para óleo de cozinha."
             }
-        },
-        {
-            "title": "Proffy",
-            "description": "Plataforma de estudos online desenvolvida durante a Next Level Week 2 da Rocketseat",
-            "link": "https://github.com/MrWillian/next-level-week-2",
-            "image": "https://github.com/MrWillian/next-level-week-2/blob/master/.github/layout.png?raw=true",
-            "category": "Todos",
-            "info" : {
-                "technology": "NodeJS - React - React Native",
-                "linkGithub": "https://github.com/MrWillian/next-level-week-2",
-                "description": "Proffy - Plataforma de estudos online onde alunos podem se conectar com professores."
-            }
-        }      
+        }
     ]
 }
