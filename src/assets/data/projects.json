@@ -97,6 +97,18 @@
             }
         },
         {
+            "title": "Article Preview Component",
+            "description": "Desafio diário de Frontend - Article Preview Component",
+            "link": "https://article-preview-six.vercel.app/",
+            "image": "http://localhost:3000/images/article-preview-component.png",
+            "category": "Web",
+            "info" : {
+                "technology": "ReactJS",
+                "linkGithub": "https://github.com/MrWillian/article-preview-component",
+                "description": "Desafio de Frontend do Frontend Mentor - Componente de Pré-visualização de Artigos"
+            }
+        },
+        {
             "title": "Mobiee Passageiro: Chama!",
             "description": "Ajustes (Freelancer) no Mobiee Passageiro - Aplicativo de Mobilidade Urbana",
             "link": "https://play.google.com/store/apps/details?id=com.fab.mobiee",
