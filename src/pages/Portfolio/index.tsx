@@ -26,7 +26,7 @@ const Portfolio: React.FC = () => {
       <CardContainer>
         <Card title="Mobile Developer" value={getCountOfCategory(CategoryEnum.MOBILE) + " projetos"} />
         <Card title="Front-End Developer" value={getCountOfCategory(CategoryEnum.WEB) + " projetos"} hasContrast />
-        <Card title="Back-End Developer" value={getCountOfCategory(CategoryEnum.BACKEND) + " projetos"} />
+        <Card title="Back-End Developer" value={getCountOfCategory(CategoryEnum.TODOS) + " projetos"} />
       </CardContainer>
 
       <ExploreMoreAndProjectsContainer>
