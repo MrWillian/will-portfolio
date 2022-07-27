@@ -109,29 +109,7 @@
             }
         },
         {
-            "title": "Mobiee Passageiro: Chama!",
-            "description": "Ajustes (Freelancer) no Mobiee Passageiro - Aplicativo de Mobilidade Urbana",
-            "link": "https://play.google.com/store/apps/details?id=com.fab.mobiee",
-            "image": "",
-            "category": "Mobile",
-            "info" : {
-                "technology": "React Native",
-                "description": "Ajustes feitos no aplicativo da PlayStore sobre contrato Freelancer"
-            }
-        },
-        {
-            "title": "Mobiee Motorista: Partiu!",
-            "description": "Ajustes (Freelancer) no Mobiee Motorista - Aplicativo de Mobilidade Urbana",
-            "link": "https://play.google.com/store/apps/details?id=com.fab.mobieefordrivers",
-            "image": "",
-            "category": "Mobile",
-            "info" : {
-                "technology": "React Native",
-                "description": "Ajustes feitos no aplicativo da PlayStore sobre contrato Freelancer"
-            }
-        },
-        {
-            "title": "FindOil",
+            "title": "FindOil (React Native)",
             "description": "Aplicativo para Cadastro de Pontos de Coleta",
             "link": "https://github.com/MrWillian/find-oil",
             "image": "http://localhost:3000/images/Screenshot-1_com.findoil.jpg",
@@ -140,6 +118,51 @@
                 "technology": "React Native",
                 "linkGithub": "https://github.com/MrWillian/find-oil",
                 "description": "Um aplicativo para cadastro de Ponto de Coleta para óleo de cozinha."
+            }
+        },
+        {
+            "title": "Shop UI Kit (Flutter)",
+            "description": "UI-Kit para Shop (E-Commerce)",
+            "link": "https://github.com/MrWillian/Flutter-Shop-UI-Kit",
+            "image": "http://localhost:3000/images/Shop-UI-Kit-Flutter01.png",
+            "category": "Mobile",
+            "info" : {
+                "technology": "Flutter",
+                "linkGithub": "https://github.com/MrWillian/Flutter-Shop-UI-Kit",
+                "description": "Um UI Kit para aplicativo de e-commerce."
+            }
+        },
+        {
+            "title": "Mobiee Passageiro: Chama! (React Native)",
+            "description": "Ajustes (Freelancer) no Mobiee Passageiro - Aplicativo de Mobilidade Urbana",
+            "link": "https://play.google.com/store/apps/details?id=com.fab.mobiee",
+            "image": "",
+            "category": "Mobile",
+            "info" : {
+                "technology": "React Native",
+                "description": "Criação de um Chat em tempo real entre Passageiros e Motoristas"
+            }
+        },
+        {
+            "title": "Mobiee Motorista: Partiu! (React Native)",
+            "description": "Ajustes (Freelancer) no Mobiee Motorista - Aplicativo de Mobilidade Urbana",
+            "link": "https://play.google.com/store/apps/details?id=com.fab.mobieefordrivers",
+            "image": "",
+            "category": "Mobile",
+            "info" : {
+                "technology": "React Native",
+                "description": "Criação de um Chat em tempo real entre Passageiros e Motoristas"
+            }
+        },
+        {
+            "title": "Qandac - Perguntas e Bate-Papo! (React Native)",
+            "description": "Ajustes (Freelancer) no - Perguntas e Bate-Papo",
+            "link": "https://play.google.com/store/apps/details?id=com.qandacmobile&hl=pt_BR&gl=US",
+            "image": "",
+            "category": "Mobile",
+            "info" : {
+                "technology": "React Native",
+                "description": "Diversos Ajustes feitos no aplicativo da PlayStore sobre contrato Freelancer"
             }
         }
     ]
