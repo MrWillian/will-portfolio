@@ -1,18 +1,6 @@
 {
     "projects": [
         {
-            "title": "Nerdflix",
-            "description": "Plataforma de estudos online desenvolvida durante a Next Level Week 2 da Rocketseat",
-            "link": "https://nerdflix-mrwillian.vercel.app/",
-            "image": "http://localhost:3000/images/nerd-flix.png",
-            "category": "Web",
-            "info" : {
-                "technology": "ReactJS",
-                "linkGithub": "https://github.com/MrWillian/nerdflix",
-                "description": "Venho compartilhar minha versão do AluraFlix, o projeto abordado na semana da Imersão React (1ª aula), da Alura Cursos Online, onde os instrutores, Marco Bruno, Juliana Negreiros e Mario Souto Silva estão nos introduzindo no mundo do React. Nessa primeira aula, eles nos explicam tudo sobre os primeiros passos para se criar um projeto em React, e também o conceito de React Components. Como desafio, foi proposto inventarmos a nossa própria versão, por isso, vos apresento o NerdFlix 😂😂... Uma plataforma de vídeos do YouTube com os melhores conteúdos para os Nerds de plantão, onde encontraremos vídeos sobre Filmes, séries, games e muito mais... Na tentativa de desafiar a mim mesmo, desenvolvi essa versão em TypeScript e fiz o deploy na Vercel. Claro que também acompanhei e fiz minha versão oficial da aula."
-            }
-        },
-        {
             "title": "Proffy",
             "description": "Plataforma de estudos online desenvolvida durante a Next Level Week 2 da Rocketseat",
             "link": "https://github.com/MrWillian/next-level-week-2",
@@ -25,10 +13,33 @@
             }
         },
         {
+            "title": "NSDigital - Teste para Vaga de Desenvolvedor WEB",
+            "description": "Projeto que fiz para vaga de Desenvolvedor WEB na NSDigital (Vitória da Conquista - Bahia)",
+            "link": "https://github.com/MrWillian/vaga-programador/tree/develop",
+            "image": "https://camo.githubusercontent.com/eecb32aea6b17cd4b972258547a8e09b3a48478f532338b5f4df940c6ab6cbdd/68747470733a2f2f692e696d6775722e636f6d2f7a416142514d632e6a7067",
+            "category": "Todos",
+            "info" : {
+                "technology": "Framework Laravel",
+                "description": "Projeto que fiz para vaga de Desenvolvedor WEB na NSDigital (Vitória da Conquista - Bahia). Prints do sistema no README do repositório."
+            }
+        },
+        {
+            "title": "Nerdflix",
+            "description": "Plataforma de estudos online desenvolvida durante a Next Level Week 2 da Rocketseat",
+            "link": "https://nerdflix-mrwillian.vercel.app/",
+            "image": "https://user-images.githubusercontent.com/50757994/182050855-a8241ae2-7bae-4596-af6a-f9b836b7705b.png",
+            "category": "Web",
+            "info" : {
+                "technology": "ReactJS",
+                "linkGithub": "https://github.com/MrWillian/nerdflix",
+                "description": "Venho compartilhar minha versão do AluraFlix, o projeto abordado na semana da Imersão React (1ª aula), da Alura Cursos Online, onde os instrutores, Marco Bruno, Juliana Negreiros e Mario Souto Silva estão nos introduzindo no mundo do React. Nessa primeira aula, eles nos explicam tudo sobre os primeiros passos para se criar um projeto em React, e também o conceito de React Components. Como desafio, foi proposto inventarmos a nossa própria versão, por isso, vos apresento o NerdFlix 😂😂... Uma plataforma de vídeos do YouTube com os melhores conteúdos para os Nerds de plantão, onde encontraremos vídeos sobre Filmes, séries, games e muito mais... Na tentativa de desafiar a mim mesmo, desenvolvi essa versão em TypeScript e fiz o deploy na Vercel. Claro que também acompanhei e fiz minha versão oficial da aula."
+            }
+        },
+        {
             "title": "Twitter Clone",
             "description": "Clone do Twitter",
             "link": "https://willian-twitter-clone.netlify.app",
-            "image": "http://localhost:3000/images/twitter-clone.jpg",
+            "image": "https://user-images.githubusercontent.com/50757994/182050878-307b33c9-24de-443a-a85a-cca48ff2774b.jpg",
             "category": "Web",
             "info" : {
                 "technology": "ReactJS",
@@ -40,7 +51,7 @@
             "title": "Discord Clone",
             "description": "Clone do Discord",
             "link": "https://willian-discord-clone.netlify.app",
-            "image": "http://localhost:3000/images/discord-clone.jpg",
+            "image": "https://user-images.githubusercontent.com/50757994/182050891-be0f2f17-95f3-4c49-9a60-e9dcc8d2d153.jpg",
             "category": "Web",
             "info" : {
                 "technology": "ReactJS",
@@ -52,7 +63,7 @@
             "title": "Covid Tracker",
             "description": "Covid Tracker",
             "link": "https://covid-world-tracker.netlify.app",
-            "image": "http://localhost:3000/images/covid-tracker.jpg",
+            "image": "https://user-images.githubusercontent.com/50757994/182050900-4a6bb72f-ed26-4364-bab6-1b83a8c3bae9.jpg",
             "category": "Web",
             "info" : {
                 "technology": "ReactJS",
@@ -64,7 +75,7 @@
             "title": "Task Manager",
             "description": "Gerenciador de Tarefas",
             "link": "https://task-manager-willian.netlify.app",
-            "image": "http://localhost:3000/images/task-manager.jpg",
+            "image": "https://user-images.githubusercontent.com/50757994/182050910-25d4488d-db33-4cb5-b813-5a894fe6364d.jpg",
             "category": "Web",
             "info" : {
                 "technology": "ReactJS",
@@ -76,7 +87,7 @@
             "title": "Social Media Dashboard",
             "description": "Desafio diário de Frontend - Social Media Dashboard",
             "link": "https://social-media-dashboard-olive.vercel.app/",
-            "image": "http://localhost:3000/images/social-media-dashboard.png",
+            "image": "https://user-images.githubusercontent.com/50757994/182050931-8a81bede-5670-45bc-94fc-561c0947c0cb.png",
             "category": "Web",
             "info" : {
                 "technology": "ReactJS",
@@ -88,7 +99,7 @@
             "title": "Fylo Data Storage Component",
             "description": "Desafio diário de Frontend - Fylo Data Storage Component",
             "link": "https://fylo-willian.vercel.app/",
-            "image": "http://localhost:3000/images/fylo-data-storage-component.png",
+            "image": "https://user-images.githubusercontent.com/50757994/182050950-3a3cf71f-20b7-4f03-9ad4-4d67e1064bbc.png",
             "category": "Web",
             "info" : {
                 "technology": "ReactJS",
@@ -100,7 +111,7 @@
             "title": "Article Preview Component",
             "description": "Desafio diário de Frontend - Article Preview Component",
             "link": "https://article-preview-six.vercel.app/",
-            "image": "http://localhost:3000/images/article-preview-component.png",
+            "image": "https://user-images.githubusercontent.com/50757994/182050830-aee72227-ded2-4597-9f54-49b00007b593.png",
             "category": "Web",
             "info" : {
                 "technology": "ReactJS",
@@ -112,7 +123,7 @@
             "title": "Sistema - Login",
             "description": "Login System",
             "link": "https://login-system-willian.vercel.app/",
-            "image": "http://localhost:3000/images/login-system.png",
+            "image": "https://user-images.githubusercontent.com/50757994/182050966-2061f9e4-643f-4fe9-9fd5-374dc58d61b4.png",
             "category": "Web",
             "info" : {
                 "technology": "ReactJS",
@@ -124,7 +135,7 @@
             "title": "FindOil (React Native)",
             "description": "Aplicativo para Cadastro de Pontos de Coleta",
             "link": "https://github.com/MrWillian/find-oil",
-            "image": "http://localhost:3000/images/Screenshot-1_com.findoil.jpg",
+            "image": "https://user-images.githubusercontent.com/50757994/182050983-452978e1-ff6a-46d3-a1bd-8c9219d04b54.jpg",
             "category": "Mobile",
             "info" : {
                 "technology": "React Native",
@@ -136,7 +147,7 @@
             "title": "Shop UI Kit (Flutter)",
             "description": "UI-Kit para Shop (E-Commerce)",
             "link": "https://github.com/MrWillian/Flutter-Shop-UI-Kit",
-            "image": "http://localhost:3000/images/Shop-UI-Kit-Flutter01.png",
+            "image": "https://user-images.githubusercontent.com/50757994/182051000-1faebc21-65b4-4914-975e-2700ea9a837a.png",
             "category": "Mobile",
             "info" : {
                 "technology": "Flutter",
