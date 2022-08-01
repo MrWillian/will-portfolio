@@ -24,6 +24,17 @@
             }
         },
         {
+            "title": "075 Mídias",
+            "description": "Site para divulgação de fotos e videos de Eventos cobertos pela equipe da 075 Mídias",
+            "link": "https://midias-075.web.app/",
+            "image": "https://user-images.githubusercontent.com/50757994/182052113-7fb848a4-fd2e-4709-81bd-f29117daf0e0.png",
+            "category": "Web",
+            "info" : {
+                "technology": "ReactJS - Firebase",
+                "description": "Site para divulgação de fotos e videos de Eventos cobertos pela equipe da 075 Mídias."
+            }
+        },
+        {
             "title": "Nerdflix",
             "description": "Plataforma de estudos online desenvolvida durante a Next Level Week 2 da Rocketseat",
             "link": "https://nerdflix-mrwillian.vercel.app/",
