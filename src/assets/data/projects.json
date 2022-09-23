@@ -198,6 +198,17 @@
                 "technology": "React Native",
                 "description": "Diversos Ajustes feitos no aplicativo da PlayStore sobre contrato Freelancer"
             }
+        },
+        {
+            "title": "FinApp",
+            "description": "Aplicativo para o controle de finanças, com controle de Ganhos e Gastos",
+            "link": "https://play.google.com/store/apps/details?id=com.financescontrol",
+            "image": "",
+            "category": "Mobile",
+            "info" : {
+                "technology": "React Native",
+                "description": "Aplicativo feito de ponta a ponta por mim, e publicado na Play Store"
+            }
         }
     ]
 }
