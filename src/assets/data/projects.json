@@ -200,7 +200,7 @@
             }
         },
         {
-            "title": "FinApp",
+            "title": "FinApp - Controle Financeiro",
             "description": "Aplicativo para o controle de finanças, com controle de Ganhos e Gastos",
             "link": "https://play.google.com/store/apps/details?id=com.financescontrol",
             "image": "",
@@ -208,6 +208,17 @@
             "info" : {
                 "technology": "React Native",
                 "description": "Aplicativo feito de ponta a ponta por mim, e publicado na Play Store"
+            }
+        },
+        {
+            "title": "ConnectedIn - Mídia Social",
+            "description": "Um esboço de uma mídia social criada para testar os conhecimento em Python (Django Framework)",
+            "link": "https://github.com/MrWillian/connectedin",
+            "image": "",
+            "category": "Todos",
+            "info" : {
+                "technology": "Python (Django Framework)",
+                "description": "Um esboço de uma mídia social criada para testar os conhecimento em Python (Django Framework), foi também utilizado o Docker."
             }
         }
     ]
