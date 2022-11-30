@@ -70,6 +70,14 @@ export const ProfilePicImage = styled.img`
   bottom: -2rem;
   left: -6rem;
   height: 100%;
+
+  @media(max-width: 1300px) {
+    height: 90%;
+  }
+
+  @media(max-width: 1000px) {
+    height: 80%;
+  }
 `;
 
 export const OfficeContainer = styled.div`
