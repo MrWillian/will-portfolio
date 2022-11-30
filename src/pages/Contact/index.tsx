@@ -19,7 +19,7 @@ const Contact: React.FC = () => {
 
           <CustomText
             text="Contato"
-            isWhiteText={false} />
+            color="#666874" />
 
         </EmailContactHeader>
         
