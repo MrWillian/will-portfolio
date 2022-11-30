@@ -2,8 +2,9 @@ import React from 'react';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import CustomText from '../../components/CustomText';
-
 import * as C from './styles';
+
+import ProfilePic from '../../assets/images/profile-pic.png';
 
 const Introduction: React.FC = () => {
   return (
@@ -38,6 +39,10 @@ const Introduction: React.FC = () => {
           </a>
         </C.PerfilSocialMedia>
       </C.PerfilContainer>
+
+      <C.ProfilePicContainer>
+        <C.ProfilePicImage src={ProfilePic} />
+      </C.ProfilePicContainer>
 
       <C.OfficeContainer>
         <C.OfficeContainerHeader>
