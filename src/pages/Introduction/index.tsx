@@ -10,9 +10,7 @@ import * as C from './styles';
 const Introduction: React.FC = () => {
   return (
     <C.Container id="introduction">
-      
       <C.PerfilContainer>
-
         <C.PerfilName>
           <CustomText 
             text="Willian Marciel." 
@@ -41,33 +39,26 @@ const Introduction: React.FC = () => {
               htmlColor="#FFF" />
           </a>
         </C.PerfilSocialMedia>
-
       </C.PerfilContainer>
 
       <C.OfficeContainer>
         <C.OfficeContainerHeader>
-
           <C.Line />
-
           <CustomText
             text="Introdução"
             isWhiteText={false} />
-
         </C.OfficeContainerHeader>
         <C.OfficeContainerContent>
           <CustomText 
             text="Desenvolvedor Web e Mobile"
             weight={900}
             size={2} />
-
           {/* <CustomLink>
             Minha história
             <ArrowForwardIcon />
           </CustomLink> */}
-
         </C.OfficeContainerContent>
       </C.OfficeContainer>
-
     </C.Container>
   );
 }
