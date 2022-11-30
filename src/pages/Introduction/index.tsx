@@ -5,27 +5,24 @@ import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 
 import CustomText from '../../components/CustomText';
 
-import { 
-  Container, PerfilContainer, PerfilName, Divisor, PerfilSocialMedia,
-  OfficeContainer, OfficeContainerHeader, Line, OfficeContainerContent, CustomLink
-} from './styles';
+import * as C from './styles';
 
 const Introduction: React.FC = () => {
   return (
-    <Container id="introduction">
+    <C.Container id="introduction">
       
-      <PerfilContainer>
+      <C.PerfilContainer>
 
-        <PerfilName>
+        <C.PerfilName>
           <CustomText 
             text="Willian Marciel." 
             weight={900}
             size={2.5}
           />
-          <Divisor />
-        </PerfilName>
+          <C.Divisor />
+        </C.PerfilName>
         
-        <PerfilSocialMedia>
+        <C.PerfilSocialMedia>
           <a 
             target="_blank" 
             rel="noopener noreferrer" 
@@ -43,21 +40,21 @@ const Introduction: React.FC = () => {
               fontSize="large" 
               htmlColor="#FFF" />
           </a>
-        </PerfilSocialMedia>
+        </C.PerfilSocialMedia>
 
-      </PerfilContainer>
+      </C.PerfilContainer>
 
-      <OfficeContainer>
-        <OfficeContainerHeader>
+      <C.OfficeContainer>
+        <C.OfficeContainerHeader>
 
-          <Line />
+          <C.Line />
 
           <CustomText
             text="Introdução"
             isWhiteText={false} />
 
-        </OfficeContainerHeader>
-        <OfficeContainerContent>
+        </C.OfficeContainerHeader>
+        <C.OfficeContainerContent>
           <CustomText 
             text="Desenvolvedor Web e Mobile"
             weight={900}
@@ -68,10 +65,10 @@ const Introduction: React.FC = () => {
             <ArrowForwardIcon />
           </CustomLink> */}
 
-        </OfficeContainerContent>
-      </OfficeContainer>
+        </C.OfficeContainerContent>
+      </C.OfficeContainer>
 
-    </Container>
+    </C.Container>
   );
 }
 
