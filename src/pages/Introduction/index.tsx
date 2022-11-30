@@ -1,8 +1,6 @@
 import React from 'react';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
-
 import CustomText from '../../components/CustomText';
 
 import * as C from './styles';
