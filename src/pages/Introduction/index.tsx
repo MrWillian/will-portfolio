@@ -49,12 +49,13 @@ const Introduction: React.FC = () => {
           <C.Line />
           <CustomText
             text="Introdução"
-            isWhiteText={false} />
+            color="#666874" />
         </C.OfficeContainerHeader>
         <C.OfficeContainerContent>
           <CustomText 
             text="Desenvolvedor Web e Mobile"
             weight={900}
+            color="#FFC25C"
             size={2} />
           {/* <CustomLink>
             Minha história
