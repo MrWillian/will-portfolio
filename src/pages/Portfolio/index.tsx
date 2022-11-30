@@ -36,7 +36,7 @@ const Portfolio: React.FC = () => {
 
             <CustomText
               text="Portfólio"
-              isWhiteText={false} />
+              color="#666874" />
           </ExploreMoreHeader>
           
           <ExploreMoreContent>
