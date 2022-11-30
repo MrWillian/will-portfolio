@@ -62,6 +62,7 @@ export const PerfilSocialMedia = styled.div`
 export const ProfilePicContainer = styled.div`
   position: relative;
   align-self: stretch;
+  z-index: 1;
 `;
 
 export const ProfilePicImage = styled.img`
@@ -73,6 +74,7 @@ export const ProfilePicImage = styled.img`
 
 export const OfficeContainer = styled.div`
   margin: 6rem 1rem;
+  z-index: 100;
 `;
 
 export const OfficeContainerHeader = styled.div`
