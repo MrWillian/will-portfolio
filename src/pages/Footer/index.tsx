@@ -3,7 +3,6 @@ import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import CustomText from '../../components/CustomText';
-import DirectForm from '../../components/DirectForm';
 import CustomLink from '../../components/CustomLink';
 
 import Logo from '../../assets/images/logo.png';
