@@ -73,7 +73,7 @@ const ProjectViewer: React.FC<ProjectProps> = ({ title, link, src, info }) => {
           </button>
         </div>
         <p>
-          <InfoText>Tecnologia Utilizada:</InfoText>
+          <InfoText>Tecnologia(s) Utilizada:</InfoText>
           <LabelText>{info?.technology}</LabelText>
         </p>
         <p>
