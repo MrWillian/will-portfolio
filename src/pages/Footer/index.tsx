@@ -8,9 +8,7 @@ import CustomLink from '../../components/CustomLink';
 import Logo from '../../assets/images/logo.png';
 
 import { 
-  Container, EmailContactContainer, DirectContactContainer,
-  FooterEndContainer, SocialMedia, TextContainer,
-  ContactTypesContainer
+  Container, EmailContactContainer, FooterEndContainer, SocialMedia, TextContainer, ContactTypesContainer
 } from './styles';
 
 const Footer: React.FC = () => {
