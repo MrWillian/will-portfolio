@@ -4,9 +4,7 @@ import Info from '@material-ui/icons/Info';
 import CustomText from '../CustomText';
 import CloseIcon from '@material-ui/icons/Close';
 
-import { 
-  Container, Viewer, InfoContainer, CustomLink, LinksContainer, InfoText, LabelText
-} from './styles';
+import { Container, Viewer, InfoContainer, CustomLink, LinksContainer, InfoText, LabelText } from './styles';
 import Modal from 'react-modal';
 
 interface ProjectProps {
@@ -40,22 +38,14 @@ Modal.setAppElement('#root');
 
 const ProjectViewer: React.FC<ProjectProps> = ({ title, link, src, info }) => {
   const [isVisibleModal, setIsVisibleModal] = useState<boolean>(false);
-
   const showModal = () => setIsVisibleModal(true);
-  
   const closeModal = () => setIsVisibleModal(false);
 
   return (
     <Container>
       <Viewer image={src} />
-
       <InfoContainer>
-
-        <CustomText
-          text={title}
-          weight={600}
-          size={0.8} />
-
+        <CustomText text={title} weight={600} size={0.8} />
         <LinksContainer>
           <CustomLink target="_blank" rel="noopener noreferrer" href={link}>
             Visualizar
@@ -66,7 +56,6 @@ const ProjectViewer: React.FC<ProjectProps> = ({ title, link, src, info }) => {
             <Info fontSize="small" />
           </CustomLink>
         </LinksContainer>
-
       </InfoContainer>
 
       <Modal
