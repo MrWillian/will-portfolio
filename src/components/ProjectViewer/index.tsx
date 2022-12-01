@@ -67,7 +67,7 @@ const ProjectViewer: React.FC<ProjectProps> = ({ title, link, src, info }) => {
       >
         <div style={{display: 'flex', width: '100%', justifyContent: 'flex-end', alignItems: 'center'}}>
           <button 
-            style={{height: 25, border: '0px', cursor: 'pointer'}}
+            style={{height: 25, border: '0px', cursor: 'pointer', backgroundColor: 'red'}}
             onClick={closeModal}>
             <CloseIcon />
           </button>
