@@ -2,9 +2,20 @@ import React from 'react';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import CustomText from '../../components/CustomText';
+import Lottie from 'react-lottie';
+import animationData from '../../lotties/rocket-animation.json';
 import * as C from './styles';
 
 import ProfilePic from '../../assets/images/profile-pic.png';
+
+const defaultOptions = {
+  loop: true,
+  autoplay: true,
+  animationData: animationData,
+  rendererSettings: {
+    preserveAspectRatio: "xMidYMid slice"
+  }
+};
 
 const Introduction: React.FC = () => {
   return (
@@ -57,6 +68,7 @@ const Introduction: React.FC = () => {
             weight={900}
             color="#FFC25C"
             size={2} />
+          <Lottie options={defaultOptions} height={200} width={200} />
           {/* <CustomLink>
             Minha história
             <ArrowForwardIcon />
