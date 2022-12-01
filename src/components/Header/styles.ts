@@ -2,8 +2,10 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   grid-area: header;
+  height: 20vh;
 
-  @media(min-width: 500px) {    
+
+  @media(min-width: 500px) {
     padding: 1rem 1rem;
   }
 `;

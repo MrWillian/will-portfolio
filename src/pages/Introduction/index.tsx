@@ -1,31 +1,25 @@
 import React from 'react';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
-
 import CustomText from '../../components/CustomText';
+import * as C from './styles';
 
-import { 
-  Container, PerfilContainer, PerfilName, Divisor, PerfilSocialMedia,
-  OfficeContainer, OfficeContainerHeader, Line, OfficeContainerContent, CustomLink
-} from './styles';
+import ProfilePic from '../../assets/images/profile-pic.png';
 
 const Introduction: React.FC = () => {
   return (
-    <Container id="introduction">
-      
-      <PerfilContainer>
-
-        <PerfilName>
+    <C.Container id="introduction">
+      <C.PerfilContainer>
+        <C.PerfilName>
           <CustomText 
             text="Willian Marciel." 
             weight={900}
             size={2.5}
           />
-          <Divisor />
-        </PerfilName>
+          <C.Divisor />
+        </C.PerfilName>
         
-        <PerfilSocialMedia>
+        <C.PerfilSocialMedia>
           <a 
             target="_blank" 
             rel="noopener noreferrer" 
@@ -43,35 +37,33 @@ const Introduction: React.FC = () => {
               fontSize="large" 
               htmlColor="#FFF" />
           </a>
-        </PerfilSocialMedia>
+        </C.PerfilSocialMedia>
+      </C.PerfilContainer>
 
-      </PerfilContainer>
+      <C.ProfilePicContainer>
+        <C.ProfilePicImage src={ProfilePic} />
+      </C.ProfilePicContainer>
 
-      <OfficeContainer>
-        <OfficeContainerHeader>
-
-          <Line />
-
+      <C.OfficeContainer>
+        <C.OfficeContainerHeader>
+          <C.Line />
           <CustomText
             text="Introdução"
-            isWhiteText={false} />
-
-        </OfficeContainerHeader>
-        <OfficeContainerContent>
+            color="#666874" />
+        </C.OfficeContainerHeader>
+        <C.OfficeContainerContent>
           <CustomText 
             text="Desenvolvedor Web e Mobile"
             weight={900}
+            color="#FFC25C"
             size={2} />
-
           {/* <CustomLink>
             Minha história
             <ArrowForwardIcon />
           </CustomLink> */}
-
-        </OfficeContainerContent>
-      </OfficeContainer>
-
-    </Container>
+        </C.OfficeContainerContent>
+      </C.OfficeContainer>
+    </C.Container>
   );
 }
 
