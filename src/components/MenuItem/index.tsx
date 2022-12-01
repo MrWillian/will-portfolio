@@ -17,7 +17,7 @@ const MenuItem: React.FC<Props> = ({
       <CustomText 
         text={title} 
         weight={600} 
-        isWhiteText={isActive} />
+        color={isActive ? "#FFF" : "#FFC25C"} />
     </Container>
   );
 }

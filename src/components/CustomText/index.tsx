@@ -4,17 +4,17 @@ import { Text } from './styles';
 
 interface Props {
   text: string;
-  isWhiteText?: boolean;
+  color?: string;
   weight?: number;
   size?: number;
 }
 
 const CustomText: React.FC<Props> = ({
-  text, isWhiteText, weight, size
+  text, color, weight, size
 }) => {
   return (
     <Text 
-      isWhiteText={isWhiteText}
+      color={color}
       weight={weight}
       size={size}
     >
@@ -24,7 +24,7 @@ const CustomText: React.FC<Props> = ({
 }
 
 CustomText.defaultProps = {
-  isWhiteText: true,
+  color: '#FFF',
   weight: 400,
   size: 1,
 };

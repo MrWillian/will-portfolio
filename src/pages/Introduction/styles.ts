@@ -5,9 +5,10 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  height: 80vh;
 
-  padding: 1rem;
+  position: relative;
 
   @media(min-width: 500px) {
     flex-direction: row;
@@ -58,8 +59,30 @@ export const PerfilSocialMedia = styled.div`
   }
 `;
 
+export const ProfilePicContainer = styled.div`
+  position: relative;
+  align-self: stretch;
+  z-index: 1;
+`;
+
+export const ProfilePicImage = styled.img`
+  position: absolute;
+  bottom: -2rem;
+  left: -6rem;
+  height: 100%;
+
+  @media(max-width: 1300px) {
+    height: 90%;
+  }
+
+  @media(max-width: 1000px) {
+    height: 80%;
+  }
+`;
+
 export const OfficeContainer = styled.div`
-  margin: 6rem 1rem; 
+  margin: 6rem 1rem;
+  z-index: 100;
 `;
 
 export const OfficeContainerHeader = styled.div`

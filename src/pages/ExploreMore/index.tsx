@@ -56,7 +56,7 @@ const ExploreMore: React.FC = () => {
       <ExploreMoreHeader>
         <TitleContainer>
           <Line />
-          <CustomText text="Projetos" isWhiteText={false} size={1.5} />
+          <CustomText text="Projetos" color="#FFC25C" size={1.5} />
         </TitleContainer>
         <CustomText text="Alguns dos meus projetos já desenvolvidos:" weight={600} size={0.8} />
       </ExploreMoreHeader>
