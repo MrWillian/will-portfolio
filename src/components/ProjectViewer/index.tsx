@@ -18,6 +18,8 @@ export interface ProjectInfo {
   technology?: string,
   linkGithub?: string,
   description?: string,
+  techDescription?: string,
+  images?: string[],
 }
 
 const customStyles = {
@@ -28,8 +30,8 @@ const customStyles = {
     bottom: 'auto',
     marginRight: '-50%',
     transform: 'translate(-50%, -50%)',
-    width: 800,
-    height: 400,
+    width: 900,
+    height: 600,
     backgroundColor: '#252734'
   },
 };
@@ -80,20 +82,34 @@ const ProjectViewer: React.FC<ProjectProps> = ({ title, link, src, info }) => {
           <InfoText>Descrição:</InfoText> 
           <LabelText>{info?.description}</LabelText>
         </p>
+        {info?.techDescription ? (
+          <p>
+            <InfoText>Tech Stack:</InfoText>
+            <LabelText>{info?.techDescription}</LabelText>
+          </p>
+        ) : <></>}
         {info?.linkGithub 
           ? <p>
               <InfoText>Link do Repositório:</InfoText>
               <LabelText><a href={info?.linkGithub}>{info?.linkGithub}</a></LabelText>
             </p>
-          : <p></p>
+          : <></>
         }
         {link 
           ? <p>
               <InfoText>Link:</InfoText>
               <LabelText><a target="_blank" rel="noopener noreferrer" href={link}>{link}</a></LabelText>
             </p>
-          : <p></p>
+          : <></>
         }
+        {info?.images ? (
+          <div style={{
+            display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', gap: 5,
+            marginTop: 10, padding: 10
+          }}>
+            {info?.images.map((image, index) => <img src={image} alt={`demo ${index}`} width={200} height={300} />)}
+          </div>
+        ) : <></>}
       </Modal>
     </Container>
   );
