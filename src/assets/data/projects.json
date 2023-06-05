@@ -1,6 +1,37 @@
 {
     "projects": [
         {
+            "title": "Quote App",
+            "description": "Aplicativo de Registro para lembranças, onde o usuário poderá consultar estas informações no futuro",
+            "link": "https://play.google.com/store/apps/details?id=com.mrcode.quoteapp",
+            "image": "https://github.com/MrWillian/quote-app/assets/50757994/1bc707de-9212-4058-ae80-6a77231a4309",
+            "category": "Todos",
+            "info" : {
+                "technology": "React Native",
+                "linkGithub": "https://github.com/MrWillian/quote-app",
+                "description": "Aplicativo de Registro para lembranças, onde o usuário poderá consultar estas informações no futuro",
+                "techDescription": "Feito em React Native, utilizei ferramentas como React Hook Form, hooks, yup, styled-components, além de traduzir todo o app para o Inglês, utilizando a lib i18next, e usar soluções da AWS, como o AWS Amplify, Amazon Cognito, API Gateway, Lambda Functions e Dynamo DB.",
+                "images": [
+                    "https://github.com/MrWillian/quote-app/assets/50757994/5677cf5d-a8cf-4e6e-ab37-56d2bb56407e",
+                    "https://github.com/MrWillian/quote-app/assets/50757994/47da6d64-59dd-4ee0-aafa-a632cd6801dd",
+                    "https://github.com/MrWillian/quote-app/assets/50757994/1bc707de-9212-4058-ae80-6a77231a4309",
+                    "https://github.com/MrWillian/quote-app/assets/50757994/1a2c81d7-8d15-433f-977e-34c7cdfc531c",
+                    "https://github.com/MrWillian/quote-app/assets/50757994/c5920c78-c0f0-46bb-929e-cf08d9fade92"
+                ]
+            }
+        },
+        {
+            "title": "075 Mídias",
+            "description": "Site para divulgação de fotos e videos de Eventos cobertos pela equipe da 075 Mídias",
+            "link": "https://midias-075.web.app/",
+            "image": "https://user-images.githubusercontent.com/50757994/182052113-7fb848a4-fd2e-4709-81bd-f29117daf0e0.png",
+            "category": "Web",
+            "info" : {
+                "technology": "ReactJS - Firebase",
+                "description": "Site para divulgação de fotos e videos de Eventos cobertos pela equipe da 075 Mídias."
+            }
+        },
+        {
             "title": "Proffy",
             "description": "Plataforma de estudos online desenvolvida durante a Next Level Week 2 da Rocketseat",
             "link": "https://github.com/MrWillian/next-level-week-2",
@@ -21,17 +52,6 @@
             "info" : {
                 "technology": "Framework Laravel",
                 "description": "Projeto que fiz para vaga de Desenvolvedor WEB na NSDigital (Vitória da Conquista - Bahia). Prints do sistema no README do repositório."
-            }
-        },
-        {
-            "title": "075 Mídias",
-            "description": "Site para divulgação de fotos e videos de Eventos cobertos pela equipe da 075 Mídias",
-            "link": "https://midias-075.web.app/",
-            "image": "https://user-images.githubusercontent.com/50757994/182052113-7fb848a4-fd2e-4709-81bd-f29117daf0e0.png",
-            "category": "Web",
-            "info" : {
-                "technology": "ReactJS - Firebase",
-                "description": "Site para divulgação de fotos e videos de Eventos cobertos pela equipe da 075 Mídias."
             }
         },
         {
