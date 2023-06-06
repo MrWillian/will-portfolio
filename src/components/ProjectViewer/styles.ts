@@ -59,9 +59,15 @@ export const InfoText = styled.span`
   font-size: 1.2rem;
   font-weight: bold;
   font-decoration: underline;
+  color: var(--white);
 `;
 
 export const LabelText = styled.span`
   font-size: 1.1rem;
   margin-left: 10px;
+  color: var(--white);
+
+  > a {
+    color: var(--grey3);
+  }
 `;
