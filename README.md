@@ -2,6 +2,13 @@
 
 Welcome to my personal portfolio repository! This repository contains my personal portfolio website built using React JS, TypeScript, styled-components, and Jest. The portfolio is available in both Portuguese and English.
 
+## Table of Contents
+- [Installation](#installation)
+- [Running the Project](#running-the-project)
+- [Running Unit Tests](#running-unit-tests)
+- [Description](#description)
+
+
 ## Description
 
 A personal portfolio is an essential tool for showcasing your skills, projects, and experiences to potential employers, clients, or collaborators. It serves as a centralized hub where you can highlight your accomplishments and demonstrate your capabilities.
@@ -18,11 +25,6 @@ Feel free to explore the code, customize it according to your needs, and use it 
 
 If you have any questions or feedback, please don't hesitate to reach out.
 
-## Table of Contents
-- [Installation](#installation)
-- [Running the Project](#running-the-project)
-- [Running Unit Tests](#running-unit-tests)
-- [Description](#description)
 
 ## Installation
 
