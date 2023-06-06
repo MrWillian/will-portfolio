@@ -1,51 +1,80 @@
-## About
+# Personal Portfolio Repository
 
-My portfolio.
+Welcome to my personal portfolio repository! This repository contains my personal portfolio website built using React JS, TypeScript, styled-components, and Jest. The portfolio is available in both Portuguese and English.
 
-A better README is coming soon...
+## Table of Contents
+- [Installation](#installation)
+- [Running the Project](#running-the-project)
+- [Running Unit Tests](#running-unit-tests)
+- [Description](#description)
 
+## Installation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+To get started, follow these steps to clone the repository and install the necessary dependencies:
 
-## Available Scripts
+1. Clone the repository using the following command:
+   ```bash
+   git clone https://github.com/your-username/portfolio.git
+   ```
 
-In the project directory, you can run:
+2. Navigate to the project directory:
+   ```bash
+   cd portfolio
+   ```
 
-### `yarn start`
+3. Install the dependencies using your preferred package manager. If you're using npm, run:
+   ```bash
+   npm install
+   ```
+   If you're using Yarn, run:
+   ```bash
+   yarn install
+   ```
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Running the Project
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Once the installation is complete, you can run the project locally. Make sure you are in the project directory.
 
-### `yarn test`
+1. Start the development server using the following command:
+   ```bash
+   npm start
+   ```
+   or
+   ```bash
+   yarn start
+   ```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Open your browser and visit `http://localhost:3000` to view the portfolio.
 
-### `yarn build`
+## Running Unit Tests
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The project includes unit tests written with Jest. To run the tests, follow these steps:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+1. Make sure you are in the project directory.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Run the following command:
+   ```bash
+   npm test
+   ```
+   or
+   ```bash
+   yarn test
+   ```
 
-### `yarn eject`
+This will execute the test suite and display the results.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Description
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+A personal portfolio is an essential tool for showcasing your skills, projects, and experiences to potential employers, clients, or collaborators. It serves as a centralized hub where you can highlight your accomplishments and demonstrate your capabilities.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This portfolio repository contains a web application built with React JS, a popular JavaScript library for building user interfaces. The project is written in TypeScript, a typed superset of JavaScript that brings additional safety and tooling benefits.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The user interface is styled using styled-components, a CSS-in-JS library that allows you to write CSS code directly within your JavaScript components. This approach provides better component encapsulation and reusability.
 
-## Learn More
+Translation support is included, allowing users to switch between Portuguese and English versions of the portfolio. This enables you to reach a wider audience and tailor your content based on the viewer's preferred language.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The project also includes unit tests written with Jest, a JavaScript testing framework. These tests ensure the correctness and reliability of the codebase, giving you confidence in the functionality of your portfolio.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feel free to explore the code, customize it according to your needs, and use it as a starting point for your own personal portfolio. Happy coding!
+
+If you have any questions or feedback, please don't hesitate to reach out.
