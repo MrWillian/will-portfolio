@@ -3,10 +3,10 @@
 Welcome to my personal portfolio repository! This repository contains my personal portfolio website built using React JS, TypeScript, styled-components, and Jest. The portfolio is available in both Portuguese and English.
 
 ## Table of Contents
+- [Description](#description)
 - [Installation](#installation)
 - [Running the Project](#running-the-project)
 - [Running Unit Tests](#running-unit-tests)
-- [Description](#description)
 
 
 ## Description
