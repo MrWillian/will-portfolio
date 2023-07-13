@@ -30,13 +30,7 @@
                 "technology": "ReactJS (NextJS), TypeScript",
                 "linkGithub": "https://github.com/MrWillian/quote",
                 "description": "Plataforma de Registro para lembranças, onde o usuário poderá consultar estas informações no futuro",
-                "techDescription": "Uma ferramenta prática para gerenciar recordações, feita com NextJS, utilizando para autenticação o Next Auth, junto ao AWS Cognito com Amplify, e para persistência de dados, AWS Lambda Functions acessando o DynamoDB, encapsuladas pelo API Gateway. Traduzido também para a lingua inglesa, através do i18next, react-i18next. Além de usar várias ferramentas do React, como React Query, ContextAPI, React Hook Forms, Yup, CustomHooks, entre outras. E, claro, feito em Typecript e deploy na Vercel.",
-                "images": [
-                    "https://github.com/MrWillian/quote/assets/50757994/b9f25628-ff13-43bc-b52c-4da997e93932",
-                    "https://github.com/MrWillian/quote/assets/50757994/6f7d2109-489b-43a6-b653-f9666fa1d86f",
-                    "https://github.com/MrWillian/quote/assets/50757994/0ca22e92-0c4f-4399-87e5-c3e53551213f",
-                    "https://github.com/MrWillian/quote/assets/50757994/b680ece2-2c12-4662-9626-f606bda0d03b"
-                ]
+                "techDescription": "Uma ferramenta prática para gerenciar recordações, feita com NextJS, utilizando para autenticação o Next Auth, junto ao AWS Cognito com Amplify, e para persistência de dados, AWS Lambda Functions acessando o DynamoDB, encapsuladas pelo API Gateway. Traduzido também para a lingua inglesa, através do i18next, react-i18next. Além de usar várias ferramentas do React, como React Query, ContextAPI, React Hook Forms, Yup, CustomHooks, entre outras. E, claro, feito em Typecript e deploy na Vercel."
             }
         },
         {
