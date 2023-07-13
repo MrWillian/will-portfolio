@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import BackButton from '../../components/BackButton';
 import CustomText from '../../components/CustomText';
 import ProjectViewer from '../../components/ProjectViewer';
+import { useTranslation } from 'react-i18next';
 
 import projectsJson from '../../assets/data/projects.json';
 
@@ -34,6 +35,7 @@ export interface Project {
 const ExploreMore: React.FC = () => {
   const [category, setCategory] = useState(CategoryEnum.TODOS);
   const [projectsData, setProjectsData] = useState<ProjectsProps>({});
+  const { t } = useTranslation();
 
   useEffect(() => {
     setProjectsData(projectsJson as ProjectsProps);
@@ -44,6 +46,7 @@ const ExploreMore: React.FC = () => {
       const projects = projectsJson.projects?.filter((value) => isSameCategory(value.category)) as Project[];
       setProjectsData({projects} as ProjectsProps);
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [category]);
 
   const isSameCategory = (projectCategory: string) => category === CategoryEnum.TODOS ? true : projectCategory === category;
@@ -56,15 +59,15 @@ const ExploreMore: React.FC = () => {
       <ExploreMoreHeader>
         <TitleContainer>
           <Line />
-          <CustomText text="Projetos" color="#FFC25C" size={1.5} />
+          <CustomText text={t('explore_more.title')} color="#FFC25C" size={1.5} />
         </TitleContainer>
-        <CustomText text="Alguns dos meus projetos já desenvolvidos:" weight={600} size={0.8} />
+        <CustomText text={t('explore_more.some_projects')} weight={600} size={0.8} />
       </ExploreMoreHeader>
 
       <ProjectsContainer>
         <Categories>
           <Category onClick={() => changeCategory(CategoryEnum.TODOS)} isActive={category === CategoryEnum.TODOS}>
-            Todos
+            {t('explore_more.all')}
           </Category>
           <Category onClick={() => changeCategory(CategoryEnum.WEB)} isActive={category === CategoryEnum.WEB}>
             Web
