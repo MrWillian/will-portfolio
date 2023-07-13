@@ -2,6 +2,7 @@ import React from 'react';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import CustomText from '../../components/CustomText';
 import CustomLink from '../../components/CustomLink';
+import { useTranslation } from 'react-i18next';
 
 import { 
   Container, EmailContactContainer, EmailContactHeader, Line,
@@ -9,6 +10,8 @@ import {
 } from './styles';
 
 const Contact: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <Container id="contact">
       <EmailContactContainer>
@@ -18,19 +21,19 @@ const Contact: React.FC = () => {
           <Line />
 
           <CustomText
-            text="Contato"
+            text={t('contact.label')}
             color="#666874" />
 
         </EmailContactHeader>
         
         <EmailContactContent>
           <CustomText 
-            text="Qualquer tipo de pergunta ou discussão."
+            text={t('contact.title')}
             weight={900}
             size={2} />
 
           <CustomText 
-            text="Seja sobre orçamento, tecnologias usadas ou dúvidas à cerca da carreira de desenvolvedor, me mande um email..."
+            text={t('contact.subtitle')}
             weight={600} />
 
           <CustomLink 
@@ -46,12 +49,12 @@ const Contact: React.FC = () => {
       <PhraseContainer>
 
         <CustomText 
-          text="Ninguém é tão grande que não possa aprender, nem tão pequeno que não possa ensinar."
+          text={t('contact.quote')}
           weight={900}
           size={2} />
 
         <CustomText 
-          text="Quando se procura um profissional na internet temos que ver seu portfólio. Do contrário é como contratar de olhos fechados."
+          text={t('contact.subquote')}
           weight={600} />
 
       </PhraseContainer>
