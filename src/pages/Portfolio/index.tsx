@@ -6,6 +6,7 @@ import Project from '../../components/Project';
 import CustomText from '../../components/CustomText';
 import CustomLink from '../../components/CustomLink';
 import { CategoryEnum } from '../../@types/CategoryEnum';
+import { useTranslation } from 'react-i18next';
 
 import projectsJson from '../../assets/data/projects.json';
 
@@ -15,6 +16,7 @@ import {
 } from './styles';
 
 const Portfolio: React.FC = () => {
+  const { t } = useTranslation();
   const getCountOfCategory = (category: CategoryEnum): number => {
     return projectsJson.projects?.filter((value) => isSameCategory(value.category, category)).length;
   }
@@ -24,9 +26,9 @@ const Portfolio: React.FC = () => {
   return (
     <Container id="portfolio">
       <CardContainer>
-        <Card title="Mobile Developer" value={getCountOfCategory(CategoryEnum.MOBILE) + " projetos"} />
-        <Card title="Front-End Developer" value={getCountOfCategory(CategoryEnum.WEB) + " projetos"} hasContrast />
-        <Card title="Back-End Developer" value={getCountOfCategory(CategoryEnum.TODOS) + " projetos"} />
+        <Card title={t('portfolio.role_mobile')} value={getCountOfCategory(CategoryEnum.MOBILE) + " " + t('portfolio.projects')} />
+        <Card title={t('portfolio.role_frontend')} value={getCountOfCategory(CategoryEnum.WEB) + " " + t('portfolio.projects')} hasContrast />
+        <Card title={t('portfolio.role_backend')} value={getCountOfCategory(CategoryEnum.TODOS) + " " + t('portfolio.projects')} />
       </CardContainer>
 
       <ExploreMoreAndProjectsContainer>
@@ -35,23 +37,23 @@ const Portfolio: React.FC = () => {
             <Line />
 
             <CustomText
-              text="Portfólio"
+              text={t('portfolio.title')}
               color="#666874" />
           </ExploreMoreHeader>
           
           <ExploreMoreContent>
             <CustomText 
-              text="Trabalhos criativos, projetos selecionados."
+              text={t('portfolio.jobs_title')}
               weight={900}
               size={2} />
 
             <CustomText 
-              text="Veja meus projetos já criados..."
+              text={t('portfolio.jobs_subtitle')}
               weight={600} />
 
             <Link to="/projects">
               <CustomLink>
-                Explorar mais projetos
+              {t('portfolio.explore_more')}
                 <ArrowForwardIcon />
               </CustomLink>
             </Link>

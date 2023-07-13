@@ -3,6 +3,7 @@ import LaunchIcon from '@material-ui/icons/Launch';
 import Info from '@material-ui/icons/Info';
 import CustomText from '../CustomText';
 import CloseIcon from '@material-ui/icons/Close';
+import { useTranslation } from 'react-i18next';
 
 import { Container, Viewer, InfoContainer, CustomLink, LinksContainer, InfoText, LabelText } from './styles';
 import Modal from 'react-modal';
@@ -42,6 +43,7 @@ const ProjectViewer: React.FC<ProjectProps> = ({ title, link, src, info }) => {
   const [isVisibleModal, setIsVisibleModal] = useState<boolean>(false);
   const showModal = () => setIsVisibleModal(true);
   const closeModal = () => setIsVisibleModal(false);
+  const { t } = useTranslation();
 
   return (
     <Container>
@@ -50,11 +52,11 @@ const ProjectViewer: React.FC<ProjectProps> = ({ title, link, src, info }) => {
         <CustomText text={title} weight={600} size={0.8} />
         <LinksContainer>
           <CustomLink target="_blank" rel="noopener noreferrer" href={link}>
-            Visualizar
+            {t('explore_more.visualize')}
             <LaunchIcon fontSize="small" />
           </CustomLink>
           <CustomLink onClick={showModal}>
-            Informações
+            {t('explore_more.informations')}
             <Info fontSize="small" />
           </CustomLink>
         </LinksContainer>
@@ -75,22 +77,22 @@ const ProjectViewer: React.FC<ProjectProps> = ({ title, link, src, info }) => {
           </button>
         </div>
         <p>
-          <InfoText>Tecnologia(s) Utilizada(s):</InfoText>
+          <InfoText>{t('project_viewer.used_technologies')}</InfoText>
           <LabelText>{info?.technology}</LabelText>
         </p>
         <p>
-          <InfoText>Descrição:</InfoText> 
+          <InfoText>{t('project_viewer.description')}</InfoText>
           <LabelText>{info?.description}</LabelText>
         </p>
         {info?.techDescription ? (
           <p>
-            <InfoText>Tech Stack:</InfoText>
+            <InfoText>{t('project_viewer.tech_stack')}</InfoText>
             <LabelText>{info?.techDescription}</LabelText>
           </p>
         ) : <></>}
         {info?.linkGithub 
           ? <p>
-              <InfoText>Link do Repositório:</InfoText>
+              <InfoText>{t('project_viewer.repo_link')}</InfoText>
               <LabelText><a href={info?.linkGithub}>{info?.linkGithub}</a></LabelText>
             </p>
           : <></>
