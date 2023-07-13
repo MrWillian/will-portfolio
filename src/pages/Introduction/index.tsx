@@ -4,6 +4,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import CustomText from '../../components/CustomText';
 import Lottie from 'react-lottie';
 import animationData from '../../lotties/rocket-animation.json';
+import { useTranslation } from 'react-i18next';
 import * as C from './styles';
 
 import ProfilePic from '../../assets/images/profile-pic.png';
@@ -18,6 +19,8 @@ const defaultOptions = {
 };
 
 const Introduction: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <C.Container id="introduction">
       <C.PerfilContainer>
@@ -59,12 +62,12 @@ const Introduction: React.FC = () => {
         <C.OfficeContainerHeader>
           <C.Line />
           <CustomText
-            text="Introdução"
+            text={t('menu.introduction')}
             color="#666874" />
         </C.OfficeContainerHeader>
         <C.OfficeContainerContent>
           <CustomText 
-            text="Desenvolvedor Web e Mobile"
+            text={t('general.role')}
             weight={900}
             color="#FFC25C"
             size={2} />
