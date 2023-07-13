@@ -4,6 +4,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import CustomText from '../../components/CustomText';
 import CustomLink from '../../components/CustomLink';
+import { useTranslation } from 'react-i18next';
 
 import Logo from '../../assets/images/logo.png';
 
@@ -12,6 +13,8 @@ import {
 } from './styles';
 
 const Footer: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <Container>
 
@@ -20,17 +23,17 @@ const Footer: React.FC = () => {
         <EmailContactContainer>
 
           <CustomText 
-            text="Tem um projeto?"
+            text={t('footer.title')}
             weight={900}
             size={2} />
 
           <CustomText 
-            text="Vamos conversar."
+            text={t('footer.subtitle1')}
             weight={900}
             size={2} />
 
           <CustomText 
-            text="Me conte sobre sua ideia, podemos desenvolvê-lá juntos." />
+            text={t('footer.subtitle2')} />
 
           <CustomLink
             target="_blank" rel="noopener noreferrer" 
@@ -63,8 +66,8 @@ const Footer: React.FC = () => {
         <img src={Logo} alt="logo" />
         
         <TextContainer>
-          <strong>Obrigado, </strong> 
-          <span>isso é tudo pessoal.</span>
+          <strong>{t('footer.thanks')}</strong> 
+          <span>{t('footer.goodbye')}</span>
         </TextContainer>
 
         <SocialMedia>
