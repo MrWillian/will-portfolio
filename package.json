@@ -22,7 +22,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.2",
     "styled-components": "^5.1.1",
-    "typescript": "~3.7.2"
+    "typescript": "^5.1.6"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -46,6 +46,8 @@
     ]
   },
   "devDependencies": {
+    "@types/babel__traverse": "^7.20.1",
+    "@types/history": "^5.0.0",
     "@types/react-lottie": "^1.2.6",
     "@types/react-modal": "^3.13.1",
     "@types/react-router-dom": "^5.1.5",
