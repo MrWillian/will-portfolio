@@ -4,10 +4,16 @@ import { initReactI18next } from 'react-i18next';
 
 import translations from './locales';
 
+const detectionOptions = {
+  order: ["navigator", "queryString", "path", "cookie"],
+  caches: []
+};
+
 const i18nConfig = {
   resources: translations,
   fallbackLng: 'pt-BR',
-  defaultNS: 'translations'
+  defaultNS: 'translations',
+  detection: detectionOptions,
 }
 
 i18n
