@@ -13,4 +13,5 @@ export const Container = styled.div`
 export const Image = styled.img<ImageProps>`
   width: ${p => p.isSelected ? '30px' : '15px'};
   margin: 1px;
+  cursor: pointer;
 `;
